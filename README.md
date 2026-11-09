@@ -6,12 +6,21 @@ This release matches the available analyses behind `Manuscript_v02(1).docx`, inc
 
 **Scientific scope:** predictions concern the imported generalized-Maxwell-derived modulus G, conditional on gel formation. Candidate formulations are untested. Monte Carlo ranges describe specified input perturbations through a fixed model, not calibrated prediction intervals or synthesis-success probabilities.
 
-## Start here
+## For reviewers: start here
 
-1. Open **[index.html](index.html)** in a browser. It works offline and contains the model, data and English interface. No installation is needed for forward prediction, candidate search or Monte Carlo.
-2. Use **[data/curated/records.csv](data/curated/records.csv)** for the complete 205-record analysis dataset and **[data/data_dictionary.csv](data/data_dictionary.csv)** for units and flags.
-3. See **[docs/manuscript_map.csv](docs/manuscript_map.csv)** for links from each manuscript table/figure to its data and analysis.
-4. Read **[docs/reproducibility_status.md](docs/reproducibility_status.md)** before describing the release as fully reproducible. The historical Ca/no-ion GP pipeline was recovered; the remaining original historical benchmark pipelines and raw rheological fitting inputs are not available in this release.
+**The key data and results can be reviewed without installing software.** Start with the five links below; the [reviewer guide](docs/REVIEWER_GUIDE.md) provides a clickable map to each manuscript table and figure.
+
+| What would you like to inspect? | Open this |
+|---|---|
+| The experimental dataset | [All 205 retained records](data/curated/records.csv) · [Column definitions and units](data/data_dictionary.csv) |
+| Prediction accuracy | [New-series model comparison](results/tables/table_4_extended_new_series_metrics.csv) · [Individual held-out predictions](revision_analysis/new_series_predictions.csv) |
+| Proposed formulations | [Full-precision candidate recipes and Monte Carlo summaries](results/tables/table_6_candidates_full_precision.csv) |
+| A particular manuscript table or figure | [Reviewer guide and clickable manuscript map](docs/REVIEWER_GUIDE.md) |
+| The interactive formulation tool | **Code → Download ZIP → extract → open `index.html` locally.** No Python installation required. |
+
+CSV files can be viewed as tables on GitHub or downloaded for Excel. Clicking `index.html` in the GitHub file list opens its file page; download it or the repository to run the offline application. The full collection of scripts, JSON model files and NPZ chains supports detailed reproduction; it is not necessary to open each file during an initial review.
+
+**Scope of reproduction:** the historical Ca/no-ion GP and the new-series workflows are executable. The remaining original historical benchmark pipelines and raw rheological fitting inputs are not available. See [methods](docs/methods.md) and [reproducibility status](docs/reproducibility_status.md).
 
 ## Reproduce the available analyses
 

@@ -1,0 +1,376 @@
+[
+  {
+    "name": "full",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0024064165295925,
+        "ess_bulk": 1160.8838165891148
+      },
+      "log_noise_variance": {
+        "rhat": 1.0028308789464384,
+        "ess_bulk": 820.1153557990829
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0044668001400243,
+        "ess_bulk": 645.3148668374084
+      }
+    }
+  },
+  {
+    "name": "fold_01",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0020144634917523,
+        "ess_bulk": 996.6143217863374
+      },
+      "log_noise_variance": {
+        "rhat": 1.0042442914884115,
+        "ess_bulk": 779.3648459105261
+      },
+      "logit_source_correlation": {
+        "rhat": 1.003595931672913,
+        "ess_bulk": 684.797091908994
+      }
+    }
+  },
+  {
+    "name": "fold_02",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0026254984590155,
+        "ess_bulk": 1207.5768443957297
+      },
+      "log_noise_variance": {
+        "rhat": 1.0021992103915751,
+        "ess_bulk": 935.2188404941722
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0053865653982714,
+        "ess_bulk": 683.2837978538132
+      }
+    }
+  },
+  {
+    "name": "fold_03",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.005546804216323,
+        "ess_bulk": 1065.9484565617663
+      },
+      "log_noise_variance": {
+        "rhat": 1.0082995533408106,
+        "ess_bulk": 753.9550966434712
+      },
+      "logit_source_correlation": {
+        "rhat": 1.002080341360369,
+        "ess_bulk": 713.8982403065542
+      }
+    }
+  },
+  {
+    "name": "fold_04",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0014454922091942,
+        "ess_bulk": 1052.5218154410645
+      },
+      "log_noise_variance": {
+        "rhat": 1.0023051784817019,
+        "ess_bulk": 789.5063251231729
+      },
+      "logit_source_correlation": {
+        "rhat": 1.005023941031232,
+        "ess_bulk": 771.1756587016707
+      }
+    }
+  },
+  {
+    "name": "fold_05",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0067748590593746,
+        "ess_bulk": 943.6624032304583
+      },
+      "log_noise_variance": {
+        "rhat": 1.0054420972509384,
+        "ess_bulk": 728.1709103945377
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0049610786430812,
+        "ess_bulk": 499.8327457433102
+      }
+    }
+  },
+  {
+    "name": "fold_06",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.002419317338048,
+        "ess_bulk": 1012.785310720067
+      },
+      "log_noise_variance": {
+        "rhat": 1.0067622368078013,
+        "ess_bulk": 747.7732493304636
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0054464362329878,
+        "ess_bulk": 659.4260492126124
+      }
+    }
+  },
+  {
+    "name": "fold_07",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0054303122497101,
+        "ess_bulk": 1011.416260075655
+      },
+      "log_noise_variance": {
+        "rhat": 1.0082341733199123,
+        "ess_bulk": 670.5000883307818
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0049576738821506,
+        "ess_bulk": 764.2464158721866
+      }
+    }
+  },
+  {
+    "name": "fold_08",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0042476629936055,
+        "ess_bulk": 1117.323376801315
+      },
+      "log_noise_variance": {
+        "rhat": 1.0063250179824026,
+        "ess_bulk": 757.1435471521544
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0077339268690009,
+        "ess_bulk": 663.0812115642727
+      }
+    }
+  },
+  {
+    "name": "fold_09",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.001978077543769,
+        "ess_bulk": 925.2923185655898
+      },
+      "log_noise_variance": {
+        "rhat": 1.0041825313779813,
+        "ess_bulk": 1012.4796386726669
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0036778209289554,
+        "ess_bulk": 663.7893520211312
+      }
+    }
+  },
+  {
+    "name": "fold_10",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0015692554921178,
+        "ess_bulk": 966.5629810947167
+      },
+      "log_noise_variance": {
+        "rhat": 1.0039951657880255,
+        "ess_bulk": 886.4683151867694
+      },
+      "logit_source_correlation": {
+        "rhat": 1.004298940447048,
+        "ess_bulk": 547.1639427932304
+      }
+    }
+  },
+  {
+    "name": "fold_11",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0019353251875844,
+        "ess_bulk": 1099.4781131450488
+      },
+      "log_noise_variance": {
+        "rhat": 1.0014604058030774,
+        "ess_bulk": 913.678045399404
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0079224089462608,
+        "ess_bulk": 709.513957675304
+      }
+    }
+  },
+  {
+    "name": "fold_12",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0015109896219316,
+        "ess_bulk": 1045.686271255869
+      },
+      "log_noise_variance": {
+        "rhat": 1.0044201390331344,
+        "ess_bulk": 769.8636147348279
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0059777555300244,
+        "ess_bulk": 783.1524570020331
+      }
+    }
+  },
+  {
+    "name": "fold_13",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0023912400851969,
+        "ess_bulk": 1291.6643820517572
+      },
+      "log_noise_variance": {
+        "rhat": 1.0043449860720768,
+        "ess_bulk": 1135.6564842191242
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0050542586249915,
+        "ess_bulk": 628.0105463892204
+      }
+    }
+  },
+  {
+    "name": "fold_14",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0056113195789607,
+        "ess_bulk": 1071.564924120627
+      },
+      "log_noise_variance": {
+        "rhat": 1.00246167332689,
+        "ess_bulk": 880.5754906386703
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0061692750359736,
+        "ess_bulk": 634.4143202434628
+      }
+    }
+  },
+  {
+    "name": "fold_15",
+    "shape": [
+      4,
+      5000,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0020843658052279,
+        "ess_bulk": 2017.1299413074364
+      },
+      "log_noise_variance": {
+        "rhat": 1.0042281558263282,
+        "ess_bulk": 1573.414786661895
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0078550013756675,
+        "ess_bulk": 1343.2124357853975
+      }
+    }
+  },
+  {
+    "name": "fold_16",
+    "shape": [
+      4,
+      2500,
+      3
+    ],
+    "parameters": {
+      "log_length": {
+        "rhat": 1.0014241224041331,
+        "ess_bulk": 872.35201602133
+      },
+      "log_noise_variance": {
+        "rhat": 1.0094286484103807,
+        "ess_bulk": 803.9270205997042
+      },
+      "logit_source_correlation": {
+        "rhat": 1.0031058499956784,
+        "ess_bulk": 738.9506817951889
+      }
+    }
+  }
+]

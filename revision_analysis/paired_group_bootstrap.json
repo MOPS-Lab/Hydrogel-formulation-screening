@@ -1,0 +1,72 @@
+{
+  "v4_gp": {
+    "group_mean_MSE_difference_vs_GP": 0.0,
+    "conditional_cluster_bootstrap95": [
+      0.0,
+      0.0
+    ]
+  },
+  "ks_main": {
+    "group_mean_MSE_difference_vs_GP": -0.01995685500378846,
+    "conditional_cluster_bootstrap95": [
+      -0.06741847540336868,
+      0.022649308556856852
+    ]
+  },
+  "joint_ridge": {
+    "group_mean_MSE_difference_vs_GP": -0.010679830723694309,
+    "conditional_cluster_bootstrap95": [
+      -0.05507278134453723,
+      0.02891214779192474
+    ]
+  },
+  "mixture_gp": {
+    "group_mean_MSE_difference_vs_GP": -0.0140685010831224,
+    "conditional_cluster_bootstrap95": [
+      -0.06190382174693197,
+      0.025180379678757973
+    ]
+  },
+  "trend_gp": {
+    "group_mean_MSE_difference_vs_GP": -0.005958083539174864,
+    "conditional_cluster_bootstrap95": [
+      -0.04660072428892599,
+      0.02989508528250054
+    ]
+  },
+  "ensemble": {
+    "group_mean_MSE_difference_vs_GP": -0.018794103291291442,
+    "conditional_cluster_bootstrap95": [
+      -0.049474661412759476,
+      0.008288867384257522
+    ]
+  },
+  "nested_selector": {
+    "group_mean_MSE_difference_vs_GP": -0.00019357320458565457,
+    "conditional_cluster_bootstrap95": [
+      -0.04727741407001506,
+      0.04205128076608489
+    ]
+  },
+  "training_mean": {
+    "group_mean_MSE_difference_vs_GP": 0.0023350731913157744,
+    "conditional_cluster_bootstrap95": [
+      -0.05360632159394449,
+      0.055647621770495655
+    ]
+  },
+  "RBF_SVR_added": {
+    "group_mean_MSE_difference_vs_GP": 0.0040608991692751215,
+    "conditional_cluster_bootstrap95": [
+      -0.024804622598417574,
+      0.02806006773801838
+    ]
+  },
+  "hist_gradient_boosting_added": {
+    "group_mean_MSE_difference_vs_GP": -0.037504381757547986,
+    "conditional_cluster_bootstrap95": [
+      -0.08730920768653327,
+      0.005618484433251612
+    ]
+  }
+}

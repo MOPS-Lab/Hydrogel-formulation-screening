@@ -1,0 +1,308 @@
+{
+  "date": "2026-09-30",
+  "deployed_model_version": "1.0",
+  "deployed_model_sha256": "037a1a4696169404b35dc7312ad43f8e3fad6a1579c1eb153bf437a866c8ba18",
+  "counts": {
+    "retain_gel": 164,
+    "excluded_LAP_GO": 65,
+    "exact_duplicate": 32,
+    "conflicting_G_quarantined": 14,
+    "retain_no_gel": 4
+  },
+  "retained": 168,
+  "positive": 164,
+  "no_gel": 4,
+  "calcium_families": [
+    {
+      "family": "ALG",
+      "n": 36,
+      "median_factor": 1.1030845395082922,
+      "p90_factor": 1.3278472958407206,
+      "max_factor": 1.7047595872465993,
+      "MAE_Pa": 3403.9655713102643,
+      "coverage90": 1.0,
+      "nominal_compositions": 4,
+      "inside_training_domain": 18
+    },
+    {
+      "family": "ALG+SCLG",
+      "n": 15,
+      "median_factor": 1.2879574707832582,
+      "p90_factor": 1.6257436777380054,
+      "max_factor": 1.8151175313861643,
+      "MAE_Pa": 2193.914211102783,
+      "coverage90": 1.0,
+      "nominal_compositions": 5,
+      "inside_training_domain": 4
+    },
+    {
+      "family": "SCLG",
+      "n": 1,
+      "median_factor": 1.0401366533530463,
+      "p90_factor": 1.0401366533530463,
+      "max_factor": 1.0401366533530463,
+      "MAE_Pa": 13.119874293482724,
+      "coverage90": 1.0,
+      "nominal_compositions": 1,
+      "inside_training_domain": 0
+    },
+    {
+      "family": "TOCNF",
+      "n": 43,
+      "median_factor": 1.1860787034469114,
+      "p90_factor": 1.8343858904561876,
+      "max_factor": 3.859645690737596,
+      "MAE_Pa": 1322.9139012538021,
+      "coverage90": 0.7441860465116279,
+      "nominal_compositions": 5,
+      "inside_training_domain": 23
+    },
+    {
+      "family": "TOCNF+SCLG",
+      "n": 21,
+      "median_factor": 1.2332404829846133,
+      "p90_factor": 1.7804336351068648,
+      "max_factor": 2.137045007141107,
+      "MAE_Pa": 268.87732889523113,
+      "coverage90": 0.9047619047619048,
+      "nominal_compositions": 9,
+      "inside_training_domain": 6
+    }
+  ],
+  "calcium_domain": [
+    {
+      "within_training_domain": false,
+      "n": 65,
+      "median_factor": 1.204024273550368,
+      "p90_factor": 1.789610062256736,
+      "max_factor": 3.859645690737596,
+      "MAE_Pa": 2307.482092939251
+    },
+    {
+      "within_training_domain": true,
+      "n": 51,
+      "median_factor": 1.0946874085270297,
+      "p90_factor": 1.489296982289304,
+      "max_factor": 1.8387864106610188,
+      "MAE_Pa": 1333.529004464055
+    }
+  ],
+  "minor_ions": [
+    {
+      "ion": "Al",
+      "all_doses": {
+        "n": 5,
+        "median_factor": 1.6963130778914048,
+        "p90_factor": 2.7464197587883827,
+        "max_factor": 2.8820747495215158,
+        "MAE_Pa": 24284.827022505146
+      },
+      "interior": {
+        "n": 3,
+        "median_factor": 1.6963130778914048,
+        "p90_factor": 2.592181426335942,
+        "max_factor": 2.8820747495215158,
+        "MAE_Pa": 26064.378270174082
+      },
+      "endpoint": {
+        "n": 2,
+        "median_factor": 2.057822553882228,
+        "p90_factor": 2.446634671047234,
+        "max_factor": 2.554814818718718,
+        "MAE_Pa": 21615.500151001746
+      },
+      "baseline_interior": {
+        "n": 3,
+        "median_factor": 1.1498775717498473,
+        "p90_factor": 2.718856949963701,
+        "max_factor": 3.3714758018739373,
+        "MAE_Pa": 14441.866985297122
+      }
+    },
+    {
+      "ion": "Ba",
+      "all_doses": {
+        "n": 13,
+        "median_factor": 1.5038552778359682,
+        "p90_factor": 2.2996423214094674,
+        "max_factor": 2.770232068110366,
+        "MAE_Pa": 9887.490109954178
+      },
+      "interior": {
+        "n": 11,
+        "median_factor": 1.5696229664478316,
+        "p90_factor": 2.309335830661607,
+        "max_factor": 2.770232068110366,
+        "MAE_Pa": 10232.244798766878
+      },
+      "endpoint": {
+        "n": 2,
+        "median_factor": 1.2146668889304717,
+        "p90_factor": 1.3863200029098988,
+        "max_factor": 1.432897298115443,
+        "MAE_Pa": 7991.3393214843245
+      },
+      "baseline_interior": {
+        "n": 11,
+        "median_factor": 2.060064241440695,
+        "p90_factor": 3.4808982295017272,
+        "max_factor": 3.7150267853770136,
+        "MAE_Pa": 15416.598402051983
+      }
+    },
+    {
+      "ion": "Cu",
+      "all_doses": {
+        "n": 8,
+        "median_factor": 1.2203875046734842,
+        "p90_factor": 2.1480998028985194,
+        "max_factor": 2.4074051876014098,
+        "MAE_Pa": 11574.54597315344
+      },
+      "interior": {
+        "n": 6,
+        "median_factor": 1.1189209976365597,
+        "p90_factor": 2.219196754674161,
+        "max_factor": 2.4074051876014098,
+        "MAE_Pa": 7649.77433103499
+      },
+      "endpoint": {
+        "n": 2,
+        "median_factor": 1.344210987958698,
+        "p90_factor": 1.4352277061065384,
+        "max_factor": 1.4589289816766062,
+        "MAE_Pa": 23348.860899508792
+      },
+      "baseline_interior": {
+        "n": 6,
+        "median_factor": 1.2809601460366045,
+        "p90_factor": 1.8352767280545175,
+        "max_factor": 2.2054979227561744,
+        "MAE_Pa": 11398.596438044513
+      }
+    },
+    {
+      "ion": "Fe",
+      "all_doses": {
+        "n": 7,
+        "median_factor": 1.2488477927454373,
+        "p90_factor": 2.5259276431772677,
+        "max_factor": 2.8007300791777863,
+        "MAE_Pa": 54893.61626002625
+      },
+      "interior": {
+        "n": 5,
+        "median_factor": 1.1798275355043282,
+        "p90_factor": 1.274379824609165,
+        "max_factor": 1.2916905186976648,
+        "MAE_Pa": 33146.18069734833
+      },
+      "endpoint": {
+        "n": 2,
+        "median_factor": 2.569780114120461,
+        "p90_factor": 2.7529365213780332,
+        "max_factor": 2.8007300791777863,
+        "MAE_Pa": 109262.20516672105
+      },
+      "baseline_interior": {
+        "n": 5,
+        "median_factor": 1.0313289773020162,
+        "p90_factor": 1.0542524754096732,
+        "max_factor": 1.0634524239564929,
+        "MAE_Pa": 5699.149484135798
+      }
+    },
+    {
+      "ion": "Mg",
+      "all_doses": {
+        "n": 4,
+        "median_factor": 1.2515526221050675,
+        "p90_factor": 2.0190983158064313,
+        "max_factor": 2.43918523923763,
+        "MAE_Pa": 742.3898132099227
+      },
+      "interior": {
+        "n": 2,
+        "median_factor": 1.1540832846096372,
+        "p90_factor": 1.2686556138105471,
+        "max_factor": 1.299033629374921,
+        "MAE_Pa": 643.955307736382
+      },
+      "endpoint": {
+        "n": 2,
+        "median_factor": 1.714988882042183,
+        "p90_factor": 2.273254651297108,
+        "max_factor": 2.43918523923763,
+        "MAE_Pa": 840.8243186834636
+      },
+      "baseline_interior": {
+        "n": 2,
+        "median_factor": 1.3234557094338573,
+        "p90_factor": 1.4033439703643156,
+        "max_factor": 1.4240584438646444,
+        "MAE_Pa": 641.0545864469784
+      }
+    },
+    {
+      "ion": "Sr",
+      "all_doses": {
+        "n": 11,
+        "median_factor": 1.17867263162937,
+        "p90_factor": 1.6933692825207773,
+        "max_factor": 2.6391550236623678,
+        "MAE_Pa": 6832.964603518983
+      },
+      "interior": {
+        "n": 9,
+        "median_factor": 1.1620311656981663,
+        "p90_factor": 1.4326677775213188,
+        "max_factor": 1.6933692825207773,
+        "MAE_Pa": 6692.666095007819
+      },
+      "endpoint": {
+        "n": 2,
+        "median_factor": 1.8987390735572667,
+        "p90_factor": 2.4709558099499267,
+        "max_factor": 2.6391550236623678,
+        "MAE_Pa": 7464.307891819212
+      },
+      "baseline_interior": {
+        "n": 9,
+        "median_factor": 1.1233236256774926,
+        "p90_factor": 1.4115194844880212,
+        "max_factor": 1.7301890950489247,
+        "MAE_Pa": 6505.836585715453
+      }
+    }
+  ],
+  "alg_equation": {
+    "n": 36,
+    "held_out_concentrations": [
+      1.0,
+      1.5,
+      2.0,
+      2.5
+    ],
+    "GP": {
+      "n": 36,
+      "median_factor": 1.112071773487943,
+      "p90_factor": 1.288073756125715,
+      "max_factor": 1.6720296703481872,
+      "MAE_Pa": 3153.512611428169
+    },
+    "equation": {
+      "n": 36,
+      "median_factor": 1.0916865397611117,
+      "p90_factor": 1.207568928995266,
+      "max_factor": 1.3086760605295311,
+      "MAE_Pa": 2363.200888266863
+    },
+    "parameters": {
+      "A_Pa": 18372.87388977768,
+      "n": 1.6265130453079053,
+      "K_M": 0.05078359257009738,
+      "h": 2.9231862572858076
+    }
+  },
+  "scope": "No new experiments; conflicting records remain excluded. Additional cross-validation, not an independent external test. No model hyperparameters selected using these subgroup results."
+}
