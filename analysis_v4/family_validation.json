@@ -1,0 +1,285 @@
+{
+  "description": "All KS samples of one polymer family held out; legacy retained except compositions matching held-out KS records. Diagnostic only, not entirely unseen family when legacy has it.",
+  "metrics": {
+    "n": 30,
+    "RMSE_log10": 0.3035298703553437,
+    "MAE_log10": 0.25481175908760795,
+    "median_factor": 1.7513072927804023,
+    "geomean_factor": 1.7980913801796667,
+    "within_factor2": 0.7333333333333333,
+    "R2_log": -0.22674945798719714,
+    "MAE_Pa": 8309.293395538018
+  },
+  "by_family": {
+    "ALG+SCLG": {
+      "n": 9,
+      "RMSE_log10": 0.294409130350034,
+      "MAE_log10": 0.27300841267888193,
+      "median_factor": 1.835301450769849,
+      "geomean_factor": 1.8750308287671644,
+      "within_factor2": 0.7777777777777778,
+      "R2_log": -2.3031714917801502,
+      "MAE_Pa": 8640.82076985405
+    },
+    "ALG+TOCNF": {
+      "n": 9,
+      "RMSE_log10": 0.22045306621672525,
+      "MAE_log10": 0.17789528936899485,
+      "median_factor": 1.412137188391445,
+      "geomean_factor": 1.5062438592693779,
+      "within_factor2": 0.8888888888888888,
+      "R2_log": 0.05869080703315355,
+      "MAE_Pa": 6545.615051531434
+    },
+    "ALG+TOCNF+SCLG": {
+      "n": 11,
+      "RMSE_log10": 0.3651352272113376,
+      "MAE_log10": 0.3003288778188607,
+      "median_factor": 1.9148624568908186,
+      "geomean_factor": 1.9967738378349462,
+      "within_factor2": 0.5454545454545454,
+      "R2_log": -0.276034889339152,
+      "MAE_Pa": 9131.755640818155
+    }
+  },
+  "rows": [
+    {
+      "id": "KS_17",
+      "family": "ALG",
+      "observed": 51800.0,
+      "G_Pa": 18549.594697871256,
+      "legacy_overlap": true
+    },
+    {
+      "id": "KS_21",
+      "family": "ALG",
+      "observed": 24946.47,
+      "G_Pa": 14456.338433862846,
+      "legacy_overlap": true
+    },
+    {
+      "id": "KS_29",
+      "family": "ALG",
+      "observed": 75900.0,
+      "G_Pa": 17547.382683659016,
+      "legacy_overlap": true
+    },
+    {
+      "id": "KS_34",
+      "family": "ALG",
+      "observed": 27166.51,
+      "G_Pa": 9141.463803464863,
+      "legacy_overlap": true
+    },
+    {
+      "id": "KS_11",
+      "family": "ALG+SCLG",
+      "observed": 13342.99,
+      "G_Pa": 23591.021745517326,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_12",
+      "family": "ALG+SCLG",
+      "observed": 6147.74,
+      "G_Pa": 13096.432095101034,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_18",
+      "family": "ALG+SCLG",
+      "observed": 17083.3,
+      "G_Pa": 22326.1234172094,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_19",
+      "family": "ALG+SCLG",
+      "observed": 14015.37,
+      "G_Pa": 27095.11290948862,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_20",
+      "family": "ALG+SCLG",
+      "observed": 6460.5,
+      "G_Pa": 22041.236570010708,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_22",
+      "family": "ALG+SCLG",
+      "observed": 9970.04,
+      "G_Pa": 18298.02887623342,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_26",
+      "family": "ALG+SCLG",
+      "observed": 7194.71,
+      "G_Pa": 13680.843249512714,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_32",
+      "family": "ALG+SCLG",
+      "observed": 12182.31,
+      "G_Pa": 21132.981294221925,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_35",
+      "family": "ALG+SCLG",
+      "observed": 6344.4,
+      "G_Pa": 9246.966771391319,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_1",
+      "family": "ALG+TOCNF",
+      "observed": 11584.627775173445,
+      "G_Pa": 9278.379372855166,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_2",
+      "family": "ALG+TOCNF",
+      "observed": 9525.092318941333,
+      "G_Pa": 13009.750001233526,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_3",
+      "family": "ALG+TOCNF",
+      "observed": 8761.837003277022,
+      "G_Pa": 5989.959856953225,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_13",
+      "family": "ALG+TOCNF",
+      "observed": 23769.02,
+      "G_Pa": 13794.062790972086,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_14",
+      "family": "ALG+TOCNF",
+      "observed": 22126.83,
+      "G_Pa": 12385.85411194491,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_23",
+      "family": "ALG+TOCNF",
+      "observed": 29327.23,
+      "G_Pa": 9614.514568328397,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_25",
+      "family": "ALG+TOCNF",
+      "observed": 10208.47,
+      "G_Pa": 14415.760123578408,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_27",
+      "family": "ALG+TOCNF",
+      "observed": 22772.63,
+      "G_Pa": 22962.504104111886,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_30",
+      "family": "ALG+TOCNF",
+      "observed": 39700.85,
+      "G_Pa": 33178.910523596205,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_6",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 6895.13,
+      "G_Pa": 6211.907325064313,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_7",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 9371.275699047343,
+      "G_Pa": 8740.846507128868,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_8",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 2635.13,
+      "G_Pa": 8637.402778076399,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_15",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 9506.54,
+      "G_Pa": 27169.845345016023,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_16",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 5228.04,
+      "G_Pa": 19291.28091021481,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_24",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 7381.92,
+      "G_Pa": 9686.227370801937,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_28",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 18214.92,
+      "G_Pa": 16432.49380059727,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_31",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 30400.0,
+      "G_Pa": 15875.813894936764,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_33",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 23545.31,
+      "G_Pa": 13958.468551147318,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_36",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 24400.0,
+      "G_Pa": 6862.973445221402,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_37",
+      "family": "ALG+TOCNF+SCLG",
+      "observed": 23800.0,
+      "G_Pa": 8127.946530060931,
+      "legacy_overlap": false
+    },
+    {
+      "id": "KS_10",
+      "family": "TOCNF",
+      "observed": 25404.3,
+      "G_Pa": 13252.73257532858,
+      "legacy_overlap": false
+    }
+  ]
+}

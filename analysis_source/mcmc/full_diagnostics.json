@@ -1,0 +1,26 @@
+{
+  "parameters": {
+    "log_length": {
+      "rhat": 1.0024064165295925,
+      "ess_bulk": 1160.8838165891148
+    },
+    "log_noise_variance": {
+      "rhat": 1.0028308789464384,
+      "ess_bulk": 820.1153557990829
+    },
+    "logit_source_correlation": {
+      "rhat": 1.0044668001400243,
+      "ess_bulk": 645.3148668374084
+    }
+  },
+  "chains": 4,
+  "warmup_per_chain": 1000,
+  "retained_per_chain": 2500,
+  "acceptance_initial_sampling": [
+    0.3016,
+    0.2616,
+    0.222,
+    0.3168
+  ],
+  "passed": true
+}

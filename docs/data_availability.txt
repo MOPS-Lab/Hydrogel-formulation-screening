@@ -1,0 +1,5 @@
+Suggested wording for the current scope of the deposit:
+
+The retained formulation dataset, record-level provenance, historical benchmark summaries and recovered Ca/no-ion GP implementation, source-aware Gaussian-process model, executable new-series validation and comparator analyses, preparation Monte Carlo and MCMC code, archived posterior samples, candidate-search outputs, and an offline interactive formulation-screening tool are available at [INSERT THE ACTUAL GITHUB RELEASE URL]. The remaining original historical benchmark training pipelines and raw rheological fitting inputs are not included; the scope of reproducibility is documented in the repository.
+
+Replace the bracketed URL only after uploading and creating the release. Use the same release link at both repository placeholders in Section 2.4 and Data and code availability. If a permanent archive DOI is assigned, include that DOI as well. The source repository and the hosted browser application, if enabled, are separate links.
