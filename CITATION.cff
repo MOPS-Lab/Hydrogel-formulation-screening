@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these data or computational tools, please cite this repository and the accompanying research article when available."
+type: software
+title: "Hydrogel formulation screening: data, models and computational workflows"
+version: "2026.11.09"
+date-released: "2026-11-09"
+repository-code: "https://github.com/MOPS-Lab/Hydrogel-formulation-screening"
+url: "https://github.com/MOPS-Lab/Hydrogel-formulation-screening"
+authors:
+  - family-names: "Ručigaj"
+    given-names: "Aleš"
+  - family-names: "Vračar"
+    given-names: "Petar"
+  - family-names: "Kopač"
+    given-names: "Tilen"
+abstract: "Computational companion to From target rheology to formulation: benchmarking data-driven models for shear modulus prediction and computational candidate design for multi-component biopolymer hydrogels. Contains curated formulation records, recovered historical Ca/no-ion GP, new-series composition-blocked validation, fitted source-aware GP, preparation Monte Carlo, exploratory MCMC, and untested candidate recipes. The other original historical fitting pipelines and raw rheological fitting inputs are unavailable."
+keywords:
+  - hydrogel
+  - rheology
+  - Gaussian process
+  - grouped validation
+  - Monte Carlo
+  - formulation screening
