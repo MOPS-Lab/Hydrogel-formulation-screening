@@ -1,8 +1,0 @@
-ids,values_Pa,ratio,note,stock_ALG,stock_TOCNF,stock_SCLG,f_ALG,f_TOCNF,f_SCLG,LAP,GO,pH,Ca,Mg,Ba,Sr,Fe,Cu,Al
-"12,180,287",15000; 22357.1885,1.4904792360506665,Različni G pri enakih zapisanih vhodih; potrebno preverjanje.,0.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,NEUTRAL,0.0090094810379241,0.0,0.0,0.0,0.0,0.0,0.0
-"15,165,279",8330; 8333.5364,1.000424538232893,"Razlika < 0,1 %; možna razlika v zaokroževanju.",0.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,NEUTRAL,0.0038740768463073,0.0,0.0,0.0,0.0,0.0,0.0
-"18,150,271",780; 779.989217,1.0000138244988064,"Razlika < 0,1 %; možna razlika v zaokroževanju.",0.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,NEUTRAL,0.0015316117764471,0.0,0.0,0.0,0.0,0.0,0.0
-"69,166",12900; 12500,1.032,Različni G pri enakih zapisanih vhodih; potrebno preverjanje.,0.0,2.5,0.0,0.0,1.0,0.0,0.0,0.0,NEUTRAL,0.0038740768463073,0.0,0.0,0.0,0.0,0.0,0.0
-"145,259",70; 100,1.4285714285714286,Različni G pri enakih zapisanih vhodih; potrebno preverjanje.,0.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,NEUTRAL,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-"188,192",310; 160,1.9375,Različni G pri enakih zapisanih vhodih; potrebno preverjanje.,0.0,2.0,2.0,0.0,0.1,0.9,0.0,0.0,NEUTRAL,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-"200,204",400; 4580,11.45,Različni G pri enakih zapisanih vhodih; potrebno preverjanje.,0.0,2.0,2.0,0.0,0.1,0.9,0.0,0.0,NEUTRAL,0.0180189620758483,0.0,0.0,0.0,0.0,0.0,0.0

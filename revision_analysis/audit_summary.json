@@ -1,8 +1,0 @@
-{
-  "max_relative_GP_prediction_difference": 0.0,
-  "max_relative_MCMC_prediction_difference": 0.0,
-  "max_Rhat": 1.0094286484103807,
-  "min_ESS": 499.8327457433102,
-  "all_inner_outer_group_exclusions_passed": true,
-  "python": "3.12.14"
-}
