@@ -1,0 +1,1749 @@
+[
+  {
+    "row": 3,
+    "id": "KS_1",
+    "cell": "O3",
+    "stocks": [
+      1,
+      1,
+      0
+    ],
+    "fractions": [
+      0.5,
+      0.5,
+      0
+    ],
+    "normalized_fractions": [
+      0.5,
+      0.5,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.25,
+      0.25,
+      0.0
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.009009,
+    "dose_M": 0.045045,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 9596.415829402295,
+    "G_Pa_written": 9596.42,
+    "G_observed_Pa": 11584.627775173445,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.25000000|0.25000000|0.00000000",
+    "family": "ALG+TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.5,
+      0.5,
+      0
+    ],
+    "crosslinker_stock_M": 0.09009
+  },
+  {
+    "row": 4,
+    "id": "KS_2",
+    "cell": "O4",
+    "stocks": [
+      1.5,
+      0.5,
+      0
+    ],
+    "fractions": [
+      0.75,
+      0.25,
+      0
+    ],
+    "normalized_fractions": [
+      0.75,
+      0.25,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.5625,
+      0.0625,
+      0.0
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.006757,
+    "dose_M": 0.033785,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": true,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 16750.74086926633,
+    "G_Pa_written": 16750.74,
+    "G_observed_Pa": 9525.092318941333,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.56250000|0.06250000|0.00000000",
+    "family": "ALG+TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.125,
+      0.125,
+      0
+    ],
+    "crosslinker_stock_M": 0.06757
+  },
+  {
+    "row": 5,
+    "id": "KS_3",
+    "cell": "O5",
+    "stocks": [
+      0.5,
+      1.5,
+      0
+    ],
+    "fractions": [
+      0.25,
+      0.75,
+      0
+    ],
+    "normalized_fractions": [
+      0.25,
+      0.75,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.0625,
+      0.5625,
+      0.0
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.006757,
+    "dose_M": 0.033785,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": true,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 7793.487427733759,
+    "G_Pa_written": 7793.49,
+    "G_observed_Pa": 8761.837003277022,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.06250000|0.56250000|0.00000000",
+    "family": "ALG+TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.125,
+      1.125,
+      0
+    ],
+    "crosslinker_stock_M": 0.06757
+  },
+  {
+    "row": 6,
+    "id": "KS_4",
+    "cell": "O6",
+    "stocks": [
+      0,
+      1.5,
+      0.5
+    ],
+    "fractions": [
+      0,
+      0.75,
+      0.25
+    ],
+    "normalized_fractions": [
+      0,
+      0.75,
+      0.25
+    ],
+    "normalization": null,
+    "c": [
+      0.0,
+      0.5625,
+      0.0625
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.006757,
+    "dose_M": 0.033785,
+    "method": "gp",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": true,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 4956.780074437453,
+    "G_Pa_written": 4956.78,
+    "G_observed_Pa": 0.0,
+    "gel_formed": false,
+    "source": "KS",
+    "group": "0.00000000|0.56250000|0.06250000",
+    "family": "TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0,
+      1.125,
+      0.125
+    ],
+    "crosslinker_stock_M": 0.06757
+  },
+  {
+    "row": 7,
+    "id": "KS_5",
+    "cell": "O7",
+    "stocks": [
+      0,
+      0.5,
+      1.5
+    ],
+    "fractions": [
+      0,
+      0.25,
+      0.75
+    ],
+    "normalized_fractions": [
+      0,
+      0.25,
+      0.75
+    ],
+    "normalization": null,
+    "c": [
+      0.0,
+      0.0625,
+      0.5625
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.006757,
+    "dose_M": 0.033785,
+    "method": "gp",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": true,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 1157.42988163365,
+    "G_Pa_written": 1157.43,
+    "G_observed_Pa": 0.0,
+    "gel_formed": false,
+    "source": "KS",
+    "group": "0.00000000|0.06250000|0.56250000",
+    "family": "TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0,
+      0.125,
+      1.125
+    ],
+    "crosslinker_stock_M": 0.06757
+  },
+  {
+    "row": 8,
+    "id": "KS_6",
+    "cell": "O8",
+    "stocks": [
+      1,
+      1,
+      1
+    ],
+    "fractions": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "normalized_fractions": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "normalization": "Equal thirds interpreted from 0.33 / 0.33 / 0.33; source cells retained",
+    "c": [
+      0.16666666666666666,
+      0.16666666666666666,
+      0.16666666666666666
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.006757,
+    "dose_M": 0.033785,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 4489.11376813018,
+    "G_Pa_written": 4489.11,
+    "G_observed_Pa": 6895.13,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.16666667|0.16666667|0.16666667",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "crosslinker_stock_M": 0.06757
+  },
+  {
+    "row": 9,
+    "id": "KS_7",
+    "cell": "O9",
+    "stocks": [
+      1.5,
+      0.75,
+      0.75
+    ],
+    "fractions": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "normalized_fractions": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "normalization": null,
+    "c": [
+      0.375,
+      0.09375,
+      0.09375
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.009009,
+    "dose_M": 0.045045,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": true,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 10248.62999604733,
+    "G_Pa_written": 10248.63,
+    "G_observed_Pa": 9371.275699047343,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.37500000|0.09375000|0.09375000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.75,
+      0.1875,
+      0.1875
+    ],
+    "crosslinker_stock_M": 0.09009
+  },
+  {
+    "row": 10,
+    "id": "KS_8",
+    "cell": "O10",
+    "stocks": [
+      0.5,
+      1.5,
+      0.5
+    ],
+    "fractions": [
+      0.2,
+      0.6,
+      0.2
+    ],
+    "normalized_fractions": [
+      0.2,
+      0.6,
+      0.2
+    ],
+    "normalization": null,
+    "c": [
+      0.05,
+      0.44999999999999996,
+      0.05
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.009009,
+    "dose_M": 0.045045,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": true,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 6664.589758533677,
+    "G_Pa_written": 6664.59,
+    "G_observed_Pa": 2635.13,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.05000000|0.45000000|0.05000000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.1,
+      0.8999999999999999,
+      0.1
+    ],
+    "crosslinker_stock_M": 0.09009
+  },
+  {
+    "row": 11,
+    "id": "KS_9",
+    "cell": "O11",
+    "stocks": [
+      0,
+      2,
+      0
+    ],
+    "fractions": [
+      0,
+      1,
+      0
+    ],
+    "normalized_fractions": [
+      0,
+      1,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "ion": "Sr",
+    "source_dose_mol_per_100ml": 0.009,
+    "dose_M": 0.045,
+    "method": "gp",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 14001.078612254232,
+    "G_Pa_written": 14001.08,
+    "G_observed_Pa": 0.0,
+    "gel_formed": false,
+    "source": "KS",
+    "group": "0.00000000|1.00000000|0.00000000",
+    "family": "TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0,
+      2,
+      0
+    ],
+    "crosslinker_stock_M": 0.09
+  },
+  {
+    "row": 12,
+    "id": "KS_10",
+    "cell": "O12",
+    "stocks": [
+      0,
+      2,
+      0
+    ],
+    "fractions": [
+      0,
+      1,
+      0
+    ],
+    "normalized_fractions": [
+      0,
+      1,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "ion": "Cu",
+    "source_dose_mol_per_100ml": 0.003874,
+    "dose_M": 0.01937,
+    "method": "gp",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 5090.451914152318,
+    "G_Pa_written": 5090.45,
+    "G_observed_Pa": 25404.3,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.00000000|1.00000000|0.00000000",
+    "family": "TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0,
+      2,
+      0
+    ],
+    "crosslinker_stock_M": 0.03874
+  },
+  {
+    "row": 13,
+    "id": "KS_11",
+    "cell": "O13",
+    "stocks": [
+      2,
+      0,
+      1
+    ],
+    "fractions": [
+      0.67,
+      0,
+      0.33
+    ],
+    "normalized_fractions": [
+      0.67,
+      0,
+      0.33
+    ],
+    "normalization": null,
+    "c": [
+      0.67,
+      0.0,
+      0.165
+    ],
+    "ion": "Cu",
+    "source_dose_mol_per_100ml": 0.0046,
+    "dose_M": 0.023,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 12361.068313319369,
+    "G_Pa_written": 12361.07,
+    "G_observed_Pa": 13342.99,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.67000000|0.00000000|0.16500000",
+    "family": "ALG+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.34,
+      0,
+      0.33
+    ],
+    "crosslinker_stock_M": 0.046
+  },
+  {
+    "row": 14,
+    "id": "KS_12",
+    "cell": "O14",
+    "stocks": [
+      2,
+      0,
+      1
+    ],
+    "fractions": [
+      0.67,
+      0,
+      0.33
+    ],
+    "normalized_fractions": [
+      0.67,
+      0,
+      0.33
+    ],
+    "normalization": null,
+    "c": [
+      0.67,
+      0.0,
+      0.165
+    ],
+    "ion": "Al",
+    "source_dose_mol_per_100ml": 0.004687,
+    "dose_M": 0.023435,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 24104.256668340484,
+    "G_Pa_written": 24104.26,
+    "G_observed_Pa": 6147.74,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.67000000|0.00000000|0.16500000",
+    "family": "ALG+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.34,
+      0,
+      0.33
+    ],
+    "crosslinker_stock_M": 0.04687
+  },
+  {
+    "row": 15,
+    "id": "KS_13",
+    "cell": "O15",
+    "stocks": [
+      1.5,
+      1,
+      0
+    ],
+    "fractions": [
+      0.6,
+      0.4,
+      0
+    ],
+    "normalized_fractions": [
+      0.6,
+      0.4,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.44999999999999996,
+      0.2,
+      0.0
+    ],
+    "ion": "Ba",
+    "source_dose_mol_per_100ml": 0.00387,
+    "dose_M": 0.01935,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 8891.185861592303,
+    "G_Pa_written": 8891.19,
+    "G_observed_Pa": 23769.02,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.45000000|0.20000000|0.00000000",
+    "family": "ALG+TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.8999999999999999,
+      0.4,
+      0
+    ],
+    "crosslinker_stock_M": 0.0387
+  },
+  {
+    "row": 16,
+    "id": "KS_14",
+    "cell": "O16",
+    "stocks": [
+      1.5,
+      1,
+      0
+    ],
+    "fractions": [
+      0.6,
+      0.4,
+      0
+    ],
+    "normalized_fractions": [
+      0.6,
+      0.4,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.44999999999999996,
+      0.2,
+      0.0
+    ],
+    "ion": "Sr",
+    "source_dose_mol_per_100ml": 0.0046,
+    "dose_M": 0.023,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 9790.08145242959,
+    "G_Pa_written": 9790.08,
+    "G_observed_Pa": 22126.83,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.45000000|0.20000000|0.00000000",
+    "family": "ALG+TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.8999999999999999,
+      0.4,
+      0
+    ],
+    "crosslinker_stock_M": 0.046
+  },
+  {
+    "row": 17,
+    "id": "KS_15",
+    "cell": "O17",
+    "stocks": [
+      1.5,
+      1,
+      0.5
+    ],
+    "fractions": [
+      0.5,
+      0.33,
+      0.17
+    ],
+    "normalized_fractions": [
+      0.5,
+      0.33,
+      0.17
+    ],
+    "normalization": null,
+    "c": [
+      0.375,
+      0.165,
+      0.0425
+    ],
+    "ion": "Fe",
+    "source_dose_mol_per_100ml": 0.00387,
+    "dose_M": 0.01935,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": true,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 39954.25855306161,
+    "G_Pa_written": 39954.26,
+    "G_observed_Pa": 9506.54,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.37500000|0.16500000|0.04250000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.75,
+      0.33,
+      0.085
+    ],
+    "crosslinker_stock_M": 0.0387
+  },
+  {
+    "row": 18,
+    "id": "KS_16",
+    "cell": "O18",
+    "stocks": [
+      2,
+      1,
+      0.5
+    ],
+    "fractions": [
+      0.57,
+      0.29,
+      0.14
+    ],
+    "normalized_fractions": [
+      0.57,
+      0.29,
+      0.14
+    ],
+    "normalization": null,
+    "c": [
+      0.57,
+      0.145,
+      0.035
+    ],
+    "ion": "Al",
+    "source_dose_mol_per_100ml": 0.00937,
+    "dose_M": 0.04685,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": true,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 34349.41589774249,
+    "G_Pa_written": 34349.42,
+    "G_observed_Pa": 5228.04,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.57000000|0.14500000|0.03500000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.14,
+      0.29,
+      0.07
+    ],
+    "crosslinker_stock_M": 0.0937
+  },
+  {
+    "row": 19,
+    "id": "KS_17",
+    "cell": "O19",
+    "stocks": [
+      2,
+      0,
+      0
+    ],
+    "fractions": [
+      1,
+      0,
+      0
+    ],
+    "normalized_fractions": [
+      1,
+      0,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "ion": "Ba",
+    "source_dose_mol_per_100ml": 0.006,
+    "dose_M": 0.03,
+    "method": "gp",
+    "inside_original_domain": true,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 53897.22987328513,
+    "G_Pa_written": 53897.23,
+    "G_observed_Pa": 51800.0,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "1.00000000|0.00000000|0.00000000",
+    "family": "ALG",
+    "legacy_matches": [
+      318.0
+    ],
+    "c_before_crosslinker_percent": [
+      2,
+      0,
+      0
+    ],
+    "crosslinker_stock_M": 0.06
+  },
+  {
+    "row": 20,
+    "id": "KS_18",
+    "cell": "O20",
+    "stocks": [
+      2,
+      0,
+      1.5
+    ],
+    "fractions": [
+      0.57,
+      0,
+      0.43
+    ],
+    "normalized_fractions": [
+      0.57,
+      0,
+      0.43
+    ],
+    "normalization": null,
+    "c": [
+      0.57,
+      0.0,
+      0.3225
+    ],
+    "ion": "Ba",
+    "source_dose_mol_per_100ml": 0.006,
+    "dose_M": 0.03,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 13219.902890513944,
+    "G_Pa_written": 13219.9,
+    "G_observed_Pa": 17083.3,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.57000000|0.00000000|0.32250000",
+    "family": "ALG+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.14,
+      0,
+      0.645
+    ],
+    "crosslinker_stock_M": 0.06
+  },
+  {
+    "row": 21,
+    "id": "KS_19",
+    "cell": "O21",
+    "stocks": [
+      2,
+      0,
+      1.5
+    ],
+    "fractions": [
+      0.57,
+      0,
+      0.43
+    ],
+    "normalized_fractions": [
+      0.57,
+      0,
+      0.43
+    ],
+    "normalization": null,
+    "c": [
+      0.57,
+      0.0,
+      0.3225
+    ],
+    "ion": "Fe",
+    "source_dose_mol_per_100ml": 0.00387,
+    "dose_M": 0.01935,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 41131.79793837799,
+    "G_Pa_written": 41131.8,
+    "G_observed_Pa": 14015.37,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.57000000|0.00000000|0.32250000",
+    "family": "ALG+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.14,
+      0,
+      0.645
+    ],
+    "crosslinker_stock_M": 0.0387
+  },
+  {
+    "row": 22,
+    "id": "KS_20",
+    "cell": "O22",
+    "stocks": [
+      2,
+      0,
+      2
+    ],
+    "fractions": [
+      0.5,
+      0,
+      0.5
+    ],
+    "normalized_fractions": [
+      0.5,
+      0,
+      0.5
+    ],
+    "normalization": null,
+    "c": [
+      0.5,
+      0.0,
+      0.5
+    ],
+    "ion": "Fe",
+    "source_dose_mol_per_100ml": 0.00387,
+    "dose_M": 0.01935,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 23180.292210053598,
+    "G_Pa_written": 23180.29,
+    "G_observed_Pa": 6460.5,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.50000000|0.00000000|0.50000000",
+    "family": "ALG+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1,
+      0,
+      1
+    ],
+    "crosslinker_stock_M": 0.0387
+  },
+  {
+    "row": 23,
+    "id": "KS_21",
+    "cell": "O23",
+    "stocks": [
+      2,
+      0,
+      0
+    ],
+    "fractions": [
+      1,
+      0,
+      0
+    ],
+    "normalized_fractions": [
+      1,
+      0,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "ion": "Cu",
+    "source_dose_mol_per_100ml": 0.0046,
+    "dose_M": 0.023,
+    "method": "gp",
+    "inside_original_domain": true,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 31227.88244169386,
+    "G_Pa_written": 31227.88,
+    "G_observed_Pa": 24946.47,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "1.00000000|0.00000000|0.00000000",
+    "family": "ALG",
+    "legacy_matches": [
+      348.0
+    ],
+    "c_before_crosslinker_percent": [
+      2,
+      0,
+      0
+    ],
+    "crosslinker_stock_M": 0.046
+  },
+  {
+    "row": 24,
+    "id": "KS_22",
+    "cell": "O24",
+    "stocks": [
+      2,
+      0,
+      2
+    ],
+    "fractions": [
+      0.5,
+      0,
+      0.5
+    ],
+    "normalized_fractions": [
+      0.5,
+      0,
+      0.5
+    ],
+    "normalization": null,
+    "c": [
+      0.5,
+      0.0,
+      0.5
+    ],
+    "ion": "Cu",
+    "source_dose_mol_per_100ml": 0.0046,
+    "dose_M": 0.023,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 5712.067214841013,
+    "G_Pa_written": 5712.07,
+    "G_observed_Pa": 9970.04,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.50000000|0.00000000|0.50000000",
+    "family": "ALG+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1,
+      0,
+      1
+    ],
+    "crosslinker_stock_M": 0.046
+  },
+  {
+    "row": 25,
+    "id": "KS_23",
+    "cell": "O25",
+    "stocks": [
+      2,
+      1.5,
+      0
+    ],
+    "fractions": [
+      0.57,
+      0.43,
+      0
+    ],
+    "normalized_fractions": [
+      0.57,
+      0.43,
+      0
+    ],
+    "normalization": "TOCNF fraction corrected from SCLG per user",
+    "c": [
+      0.57,
+      0.3225,
+      0.0
+    ],
+    "ion": "Al",
+    "source_dose_mol_per_100ml": 0.004687,
+    "dose_M": 0.023435,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 29236.739526455753,
+    "G_Pa_written": null,
+    "G_observed_Pa": 29327.23,
+    "gel_formed": true,
+    "source": "KS",
+    "family": "ALG+TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.14,
+      0.645,
+      0
+    ],
+    "crosslinker_stock_M": 0.04687,
+    "group": "0.57000000|0.32250000|0.00000000"
+  },
+  {
+    "row": 26,
+    "id": "KS_24",
+    "cell": "O26",
+    "stocks": [
+      2,
+      1.5,
+      1.5
+    ],
+    "fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalized_fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalization": null,
+    "c": [
+      0.4,
+      0.22499999999999998,
+      0.22499999999999998
+    ],
+    "ion": "Al",
+    "source_dose_mol_per_100ml": 0.004687,
+    "dose_M": 0.023435,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 13361.591613709219,
+    "G_Pa_written": 13361.59,
+    "G_observed_Pa": 7381.92,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.40000000|0.22500000|0.22500000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.8,
+      0.44999999999999996,
+      0.44999999999999996
+    ],
+    "crosslinker_stock_M": 0.04687
+  },
+  {
+    "row": 27,
+    "id": "KS_25",
+    "cell": "O27",
+    "stocks": [
+      2,
+      1.5,
+      0
+    ],
+    "fractions": [
+      0.57,
+      0.43,
+      0
+    ],
+    "normalized_fractions": [
+      0.57,
+      0.43,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.57,
+      0.3225,
+      0.0
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.006757,
+    "dose_M": 0.033785,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 22505.145866097675,
+    "G_Pa_written": 22505.15,
+    "G_observed_Pa": 10208.47,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.57000000|0.32250000|0.00000000",
+    "family": "ALG+TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.14,
+      0.645,
+      0
+    ],
+    "crosslinker_stock_M": 0.06757
+  },
+  {
+    "row": 28,
+    "id": "KS_26",
+    "cell": "O28",
+    "stocks": [
+      2,
+      0,
+      1.5
+    ],
+    "fractions": [
+      0.57,
+      0,
+      0.43
+    ],
+    "normalized_fractions": [
+      0.57,
+      0,
+      0.43
+    ],
+    "normalization": null,
+    "c": [
+      0.57,
+      0.0,
+      0.3225
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.006757,
+    "dose_M": 0.033785,
+    "method": "gp",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 15335.455401170604,
+    "G_Pa_written": 15335.46,
+    "G_observed_Pa": 7194.71,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.57000000|0.00000000|0.32250000",
+    "family": "ALG+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.14,
+      0,
+      0.645
+    ],
+    "crosslinker_stock_M": 0.06757
+  },
+  {
+    "row": 29,
+    "id": "KS_27",
+    "cell": "O29",
+    "stocks": [
+      2,
+      1.5,
+      0
+    ],
+    "fractions": [
+      0.57,
+      0.43,
+      0
+    ],
+    "normalized_fractions": [
+      0.57,
+      0.43,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.57,
+      0.3225,
+      0.0
+    ],
+    "ion": "Ba",
+    "source_dose_mol_per_100ml": 0.006,
+    "dose_M": 0.03,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 26003.79852949723,
+    "G_Pa_written": 26003.8,
+    "G_observed_Pa": 22772.63,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.57000000|0.32250000|0.00000000",
+    "family": "ALG+TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.14,
+      0.645,
+      0
+    ],
+    "crosslinker_stock_M": 0.06
+  },
+  {
+    "row": 30,
+    "id": "KS_28",
+    "cell": "O30",
+    "stocks": [
+      2,
+      1.5,
+      1.5
+    ],
+    "fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalized_fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalization": null,
+    "c": [
+      0.4,
+      0.22499999999999998,
+      0.22499999999999998
+    ],
+    "ion": "Ba",
+    "source_dose_mol_per_100ml": 0.006,
+    "dose_M": 0.03,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 11848.910973144944,
+    "G_Pa_written": 11848.91,
+    "G_observed_Pa": 18214.92,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.40000000|0.22500000|0.22500000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.8,
+      0.44999999999999996,
+      0.44999999999999996
+    ],
+    "crosslinker_stock_M": 0.06
+  },
+  {
+    "row": 31,
+    "id": "KS_29",
+    "cell": "O31",
+    "stocks": [
+      2,
+      0,
+      0
+    ],
+    "fractions": [
+      1,
+      0,
+      0
+    ],
+    "normalized_fractions": [
+      1,
+      0,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "ion": "Fe",
+    "source_dose_mol_per_100ml": 0.00387,
+    "dose_M": 0.01935,
+    "method": "gp",
+    "inside_original_domain": true,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 215675.25920528796,
+    "G_Pa_written": 215675.26,
+    "G_observed_Pa": 75900.0,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "1.00000000|0.00000000|0.00000000",
+    "family": "ALG",
+    "legacy_matches": [
+      340.0
+    ],
+    "c_before_crosslinker_percent": [
+      2,
+      0,
+      0
+    ],
+    "crosslinker_stock_M": 0.0387
+  },
+  {
+    "row": 32,
+    "id": "KS_30",
+    "cell": "O32",
+    "stocks": [
+      2,
+      1.5,
+      0
+    ],
+    "fractions": [
+      0.57,
+      0.43,
+      0
+    ],
+    "normalized_fractions": [
+      0.57,
+      0.43,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      0.57,
+      0.3225,
+      0.0
+    ],
+    "ion": "Fe",
+    "source_dose_mol_per_100ml": 0.00387,
+    "dose_M": 0.01935,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 86185.76500358053,
+    "G_Pa_written": 86185.77,
+    "G_observed_Pa": 39700.85,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.57000000|0.32250000|0.00000000",
+    "family": "ALG+TOCNF",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.14,
+      0.645,
+      0
+    ],
+    "crosslinker_stock_M": 0.0387
+  },
+  {
+    "row": 33,
+    "id": "KS_31",
+    "cell": "O33",
+    "stocks": [
+      2,
+      1.5,
+      1.5
+    ],
+    "fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalized_fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalization": null,
+    "c": [
+      0.4,
+      0.22499999999999998,
+      0.22499999999999998
+    ],
+    "ion": "Fe",
+    "source_dose_mol_per_100ml": 0.00387,
+    "dose_M": 0.01935,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 34959.05455133759,
+    "G_Pa_written": 34959.05,
+    "G_observed_Pa": 30400.0,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.40000000|0.22500000|0.22500000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.8,
+      0.44999999999999996,
+      0.44999999999999996
+    ],
+    "crosslinker_stock_M": 0.0387
+  },
+  {
+    "row": 34,
+    "id": "KS_32",
+    "cell": "O34",
+    "stocks": [
+      2,
+      0,
+      1.5
+    ],
+    "fractions": [
+      0.57,
+      0,
+      0.43
+    ],
+    "normalized_fractions": [
+      0.57,
+      0,
+      0.43
+    ],
+    "normalization": null,
+    "c": [
+      0.57,
+      0.0,
+      0.3225
+    ],
+    "ion": "Cu",
+    "source_dose_mol_per_100ml": 0.0046,
+    "dose_M": 0.023,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 8267.409268267964,
+    "G_Pa_written": 8267.41,
+    "G_observed_Pa": 12182.31,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.57000000|0.00000000|0.32250000",
+    "family": "ALG+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1.14,
+      0,
+      0.645
+    ],
+    "crosslinker_stock_M": 0.046
+  },
+  {
+    "row": 35,
+    "id": "KS_33",
+    "cell": "O35",
+    "stocks": [
+      2,
+      1.5,
+      1.5
+    ],
+    "fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalized_fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalization": null,
+    "c": [
+      0.4,
+      0.22499999999999998,
+      0.22499999999999998
+    ],
+    "ion": "Cu",
+    "source_dose_mol_per_100ml": 0.0046,
+    "dose_M": 0.023,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 7070.25104580618,
+    "G_Pa_written": 7070.25,
+    "G_observed_Pa": 23545.31,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.40000000|0.22500000|0.22500000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.8,
+      0.44999999999999996,
+      0.44999999999999996
+    ],
+    "crosslinker_stock_M": 0.046
+  },
+  {
+    "row": 36,
+    "id": "KS_34",
+    "cell": "O36",
+    "stocks": [
+      2,
+      0,
+      0
+    ],
+    "fractions": [
+      1,
+      0,
+      0
+    ],
+    "normalized_fractions": [
+      1,
+      0,
+      0
+    ],
+    "normalization": null,
+    "c": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "ion": "Al",
+    "source_dose_mol_per_100ml": 0.004687,
+    "dose_M": 0.023435,
+    "method": "gp",
+    "inside_original_domain": true,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 62621.0916053473,
+    "G_Pa_written": 62621.09,
+    "G_observed_Pa": 27166.51,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "1.00000000|0.00000000|0.00000000",
+    "family": "ALG",
+    "legacy_matches": [
+      306.0
+    ],
+    "c_before_crosslinker_percent": [
+      2,
+      0,
+      0
+    ],
+    "crosslinker_stock_M": 0.04687
+  },
+  {
+    "row": 37,
+    "id": "KS_35",
+    "cell": "O37",
+    "stocks": [
+      2,
+      0,
+      2
+    ],
+    "fractions": [
+      0.5,
+      0,
+      0.5
+    ],
+    "normalized_fractions": [
+      0.5,
+      0,
+      0.5
+    ],
+    "normalization": null,
+    "c": [
+      0.5,
+      0.0,
+      0.5
+    ],
+    "ion": "Al",
+    "source_dose_mol_per_100ml": 0.004687,
+    "dose_M": 0.023435,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 9748.967084691294,
+    "G_Pa_written": 9748.97,
+    "G_observed_Pa": 6344.4,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.50000000|0.00000000|0.50000000",
+    "family": "ALG+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      1,
+      0,
+      1
+    ],
+    "crosslinker_stock_M": 0.04687
+  },
+  {
+    "row": 38,
+    "id": "KS_36",
+    "cell": "O38",
+    "stocks": [
+      2,
+      1.5,
+      1.5
+    ],
+    "fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalized_fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalization": null,
+    "c": [
+      0.4,
+      0.22499999999999998,
+      0.22499999999999998
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.006757,
+    "dose_M": 0.033785,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 9174.966106134792,
+    "G_Pa_written": 9174.97,
+    "G_observed_Pa": 24400.0,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.40000000|0.22500000|0.22500000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.8,
+      0.44999999999999996,
+      0.44999999999999996
+    ],
+    "crosslinker_stock_M": 0.06757
+  },
+  {
+    "row": 39,
+    "id": "KS_37",
+    "cell": "O39",
+    "stocks": [
+      2,
+      1.5,
+      1.5
+    ],
+    "fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalized_fractions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "normalization": null,
+    "c": [
+      0.4,
+      0.22499999999999998,
+      0.22499999999999998
+    ],
+    "ion": "Ca",
+    "source_dose_mol_per_100ml": 0.012,
+    "dose_M": 0.06,
+    "method": "geometric_assumption",
+    "inside_original_domain": false,
+    "preparation_outside_1_3_percent": false,
+    "interaction_factor": 1,
+    "G_Pa_full_precision": 11819.018223842022,
+    "G_Pa_written": 11819.02,
+    "G_observed_Pa": 23800.0,
+    "gel_formed": true,
+    "source": "KS",
+    "group": "0.40000000|0.22500000|0.22500000",
+    "family": "ALG+TOCNF+SCLG",
+    "legacy_matches": [],
+    "c_before_crosslinker_percent": [
+      0.8,
+      0.44999999999999996,
+      0.44999999999999996
+    ],
+    "crosslinker_stock_M": 0.12
+  }
+]

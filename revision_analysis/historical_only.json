@@ -1,0 +1,163 @@
+{
+  "description": "Retrospective test, not a prospective experiment. No later-series target used in fitting/tuning; same source encoding because between-source correlation is not identifiable from one source.",
+  "param": [
+    "raw",
+    1.5,
+    0.03,
+    0.9
+  ],
+  "historical_inner_scores": [
+    0.5321075899337313,
+    0.5665188967897827,
+    0.3368655315522972,
+    0.3568738777937685,
+    0.4550719892050597,
+    0.4622754931319293
+  ],
+  "metrics_novel": {
+    "n": 30,
+    "RMSE_log10": 0.3612048702414063,
+    "MAE_log10": 0.296619066273353,
+    "median_factor": 1.7392352516391225,
+    "within_factor2": 0.6333333333333333,
+    "R2_log": -0.7372415053894588
+  },
+  "predictions": [
+    {
+      "id": "KS_1",
+      "predicted_Pa": 7087.781773324175
+    },
+    {
+      "id": "KS_2",
+      "predicted_Pa": 14973.04518436251
+    },
+    {
+      "id": "KS_3",
+      "predicted_Pa": 6550.749105838274
+    },
+    {
+      "id": "KS_6",
+      "predicted_Pa": 3342.6036888536296
+    },
+    {
+      "id": "KS_7",
+      "predicted_Pa": 8947.796794023674
+    },
+    {
+      "id": "KS_8",
+      "predicted_Pa": 5056.04192177576
+    },
+    {
+      "id": "KS_10",
+      "predicted_Pa": 4295.169244437062
+    },
+    {
+      "id": "KS_11",
+      "predicted_Pa": 12289.690308961646
+    },
+    {
+      "id": "KS_12",
+      "predicted_Pa": 22242.785943765994
+    },
+    {
+      "id": "KS_13",
+      "predicted_Pa": 8109.978663781843
+    },
+    {
+      "id": "KS_14",
+      "predicted_Pa": 9006.021159359734
+    },
+    {
+      "id": "KS_15",
+      "predicted_Pa": 24741.7893685928
+    },
+    {
+      "id": "KS_16",
+      "predicted_Pa": 30136.928712096054
+    },
+    {
+      "id": "KS_17",
+      "predicted_Pa": 53851.4092957192
+    },
+    {
+      "id": "KS_18",
+      "predicted_Pa": 11204.699611780017
+    },
+    {
+      "id": "KS_19",
+      "predicted_Pa": 23076.665488550683
+    },
+    {
+      "id": "KS_20",
+      "predicted_Pa": 11307.909732545844
+    },
+    {
+      "id": "KS_21",
+      "predicted_Pa": 33309.00502458809
+    },
+    {
+      "id": "KS_22",
+      "predicted_Pa": 5852.990051090186
+    },
+    {
+      "id": "KS_23",
+      "predicted_Pa": 16969.5602724586
+    },
+    {
+      "id": "KS_24",
+      "predicted_Pa": 8389.331506190058
+    },
+    {
+      "id": "KS_25",
+      "predicted_Pa": 12720.839519822044
+    },
+    {
+      "id": "KS_26",
+      "predicted_Pa": 13224.220584724044
+    },
+    {
+      "id": "KS_27",
+      "predicted_Pa": 15920.853658344624
+    },
+    {
+      "id": "KS_28",
+      "predicted_Pa": 8182.18183634552
+    },
+    {
+      "id": "KS_29",
+      "predicted_Pa": 201418.43282278595
+    },
+    {
+      "id": "KS_30",
+      "predicted_Pa": 42256.47166513691
+    },
+    {
+      "id": "KS_31",
+      "predicted_Pa": 16358.10597438251
+    },
+    {
+      "id": "KS_32",
+      "predicted_Pa": 7355.18724525468
+    },
+    {
+      "id": "KS_33",
+      "predicted_Pa": 5351.295379309879
+    },
+    {
+      "id": "KS_34",
+      "predicted_Pa": 60164.131929025825
+    },
+    {
+      "id": "KS_35",
+      "predicted_Pa": 7784.455550604563
+    },
+    {
+      "id": "KS_36",
+      "predicted_Pa": 5870.040931882644
+    },
+    {
+      "id": "KS_37",
+      "predicted_Pa": 8471.933385905266
+    }
+  ]
+}

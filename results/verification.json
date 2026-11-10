@@ -1,0 +1,14 @@
+{
+  "records_verified": 205,
+  "positive_records": 198,
+  "known_failures": 7,
+  "outer_folds_checked": 16,
+  "inner_folds_checked": 64,
+  "headline_records": 30,
+  "max_metric_difference_from_20261101_reference": 0.0,
+  "max_full_refit_log10_difference": 4.440892098500626e-15,
+  "Monte_Carlo_cross_language_quantiles_match": true,
+  "candidate15_outside_support_fraction": 0.8138,
+  "MCMC_80pct_coverage": "18/30",
+  "scope": "Available analyses verified; original historical seven-family benchmark not rerun; no raw rheology refit."
+}
