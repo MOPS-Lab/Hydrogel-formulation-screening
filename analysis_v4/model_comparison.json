@@ -1,0 +1,2814 @@
+{
+  "validation": "Nested leave-one-KS-composition-out; inner grouped 4-fold hyperparameter selection; frozen v2 unchanged; headline excludes 4 same-recipe independent controls; joint GP also removes legacy records matching held-out compositions.",
+  "n_groups": 16,
+  "metrics_all": {
+    "base": {
+      "n": 34,
+      "RMSE_log10": 0.3627757936941426,
+      "MAE_log10": 0.29525442137691255,
+      "median_factor": 1.9091594746402198,
+      "geomean_factor": 1.97357857287937,
+      "within_factor2": 0.5,
+      "R2_log": -0.3516367752826848,
+      "MAE_Pa": 15213.12794152404
+    },
+    "offset": {
+      "n": 34,
+      "RMSE_log10": 0.37226547892680173,
+      "MAE_log10": 0.3060583924257785,
+      "median_factor": 1.9174822649142236,
+      "geomean_factor": 2.023291199033004,
+      "within_factor2": 0.5294117647058824,
+      "R2_log": -0.4232753489562011,
+      "MAE_Pa": 13672.778099643649
+    },
+    "ridge_ion": {
+      "n": 34,
+      "RMSE_log10": 0.30347647756119567,
+      "MAE_log10": 0.2513445866417815,
+      "median_factor": 1.700612726555938,
+      "geomean_factor": 1.7837935393666338,
+      "within_factor2": 0.5588235294117647,
+      "R2_log": 0.05412561019904383,
+      "MAE_Pa": 9594.383837380215
+    },
+    "ridge_main": {
+      "n": 34,
+      "RMSE_log10": 0.31890187972569456,
+      "MAE_log10": 0.24143705312804198,
+      "median_factor": 1.6115454044567599,
+      "geomean_factor": 1.7435606265512116,
+      "within_factor2": 0.6176470588235294,
+      "R2_log": -0.04447381319962895,
+      "MAE_Pa": 7663.663696747647
+    },
+    "ridge_pair": {
+      "n": 34,
+      "RMSE_log10": 0.32287089196127666,
+      "MAE_log10": 0.2525874405161643,
+      "median_factor": 1.5264641140045523,
+      "geomean_factor": 1.7889056697397132,
+      "within_factor2": 0.6470588235294118,
+      "R2_log": -0.07063437840801212,
+      "MAE_Pa": 8992.848108048911
+    },
+    "ridge_interaction": {
+      "n": 34,
+      "RMSE_log10": 0.33070697273514105,
+      "MAE_log10": 0.26159186727905587,
+      "median_factor": 1.4822846061158625,
+      "geomean_factor": 1.8263830470901192,
+      "within_factor2": 0.5882352941176471,
+      "R2_log": -0.12323363871534299,
+      "MAE_Pa": 9887.591271309226
+    },
+    "kernel_residual": {
+      "n": 34,
+      "RMSE_log10": 0.30841708025241427,
+      "MAE_log10": 0.23809035890562377,
+      "median_factor": 1.6628938225197636,
+      "geomean_factor": 1.730176300639769,
+      "within_factor2": 0.6176470588235294,
+      "R2_log": 0.023077211324454838,
+      "MAE_Pa": 8196.653170621701
+    },
+    "target_mean": {
+      "n": 34,
+      "RMSE_log10": 0.3331400595106831,
+      "MAE_log10": 0.2835868594425673,
+      "median_factor": 1.7652983530743434,
+      "geomean_factor": 1.9212631783807668,
+      "within_factor2": 0.6176470588235294,
+      "R2_log": -0.13982221116717963,
+      "MAE_Pa": 10980.420864164089
+    },
+    "direct_ion": {
+      "n": 34,
+      "RMSE_log10": 0.3233985182757801,
+      "MAE_log10": 0.25700512739062636,
+      "median_factor": 1.6216806217329547,
+      "geomean_factor": 1.8071954620922248,
+      "within_factor2": 0.6764705882352942,
+      "R2_log": -0.07413643729781771,
+      "MAE_Pa": 10137.885327938126
+    },
+    "direct_main": {
+      "n": 34,
+      "RMSE_log10": 0.2913435892532313,
+      "MAE_log10": 0.23990399462486725,
+      "median_factor": 1.5710336134944312,
+      "geomean_factor": 1.737416712008072,
+      "within_factor2": 0.7058823529411765,
+      "R2_log": 0.1282452343972138,
+      "MAE_Pa": 9316.985358509774
+    },
+    "direct_pair": {
+      "n": 34,
+      "RMSE_log10": 0.32048780943825234,
+      "MAE_log10": 0.2620569904221674,
+      "median_factor": 1.5723408800586873,
+      "geomean_factor": 1.8283401248763886,
+      "within_factor2": 0.5882352941176471,
+      "R2_log": -0.05488818221061509,
+      "MAE_Pa": 10698.935894744407
+    },
+    "direct_calibrated": {
+      "n": 34,
+      "RMSE_log10": 0.2960577630549198,
+      "MAE_log10": 0.2438516679963408,
+      "median_factor": 1.577137428837264,
+      "geomean_factor": 1.753281571399283,
+      "within_factor2": 0.7058823529411765,
+      "R2_log": 0.0998056051996693,
+      "MAE_Pa": 9352.405047523793
+    },
+    "joint_gp": {
+      "n": 34,
+      "RMSE_log10": 0.3268464762319412,
+      "MAE_log10": 0.2583802351959355,
+      "median_factor": 1.6975182969677962,
+      "geomean_factor": 1.8129266585876977,
+      "within_factor2": 0.6764705882352942,
+      "R2_log": -0.09716264282949938,
+      "MAE_Pa": 10173.888230540777
+    }
+  },
+  "metrics_novel": {
+    "base": {
+      "n": 30,
+      "RMSE_log10": 0.37092436164945003,
+      "MAE_log10": 0.30358782897857295,
+      "median_factor": 1.9091594746402198,
+      "geomean_factor": 2.01181401364887,
+      "within_factor2": 0.5,
+      "R2_log": -0.8319926117089746,
+      "MAE_Pa": 11121.262229540102
+    },
+    "offset": {
+      "n": 30,
+      "RMSE_log10": 0.3850934704359079,
+      "MAE_log10": 0.320365077246814,
+      "median_factor": 1.9174822649142236,
+      "geomean_factor": 2.09105317634911,
+      "within_factor2": 0.5333333333333333,
+      "R2_log": -0.9746280943256358,
+      "MAE_Pa": 10455.170232636889
+    },
+    "ridge_ion": {
+      "n": 30,
+      "RMSE_log10": 0.31199398312429805,
+      "MAE_log10": 0.2630789228651578,
+      "median_factor": 1.7299379456343091,
+      "geomean_factor": 1.832647432922313,
+      "within_factor2": 0.5333333333333333,
+      "R2_log": -0.29612067773684303,
+      "MAE_Pa": 8302.25580650323
+    },
+    "ridge_main": {
+      "n": 30,
+      "RMSE_log10": 0.33811242041265904,
+      "MAE_log10": 0.2643655204316008,
+      "median_factor": 1.7735127915174558,
+      "geomean_factor": 1.8380847016122042,
+      "within_factor2": 0.5666666666666667,
+      "R2_log": -0.5222123856705971,
+      "MAE_Pa": 7922.0746719225945
+    },
+    "ridge_pair": {
+      "n": 30,
+      "RMSE_log10": 0.34118529285388544,
+      "MAE_log10": 0.27112534887159995,
+      "median_factor": 1.7772001355612732,
+      "geomean_factor": 1.866918455113508,
+      "within_factor2": 0.6,
+      "R2_log": -0.5500068102317262,
+      "MAE_Pa": 8806.512170114012
+    },
+    "ridge_interaction": {
+      "n": 30,
+      "RMSE_log10": 0.3498159091291403,
+      "MAE_log10": 0.28406602677601456,
+      "median_factor": 1.8269920894477436,
+      "geomean_factor": 1.9233841231376032,
+      "within_factor2": 0.5333333333333333,
+      "R2_log": -0.6294165207254654,
+      "MAE_Pa": 9563.244956315664
+    },
+    "kernel_residual": {
+      "n": 30,
+      "RMSE_log10": 0.3262229163357494,
+      "MAE_log10": 0.2567644102860872,
+      "median_factor": 1.8666411293108731,
+      "geomean_factor": 1.8061940624913713,
+      "within_factor2": 0.5666666666666667,
+      "R2_log": -0.41703942595128596,
+      "MAE_Pa": 8078.015586534908
+    },
+    "target_mean": {
+      "n": 30,
+      "RMSE_log10": 0.2941814677605434,
+      "MAE_log10": 0.25417003052315346,
+      "median_factor": 1.7082970237612516,
+      "geomean_factor": 1.795436420108668,
+      "within_factor2": 0.6666666666666666,
+      "R2_log": -0.15234792167081013,
+      "MAE_Pa": 8137.766135942747
+    },
+    "direct_ion": {
+      "n": 30,
+      "RMSE_log10": 0.2870477401250977,
+      "MAE_log10": 0.22630148422216134,
+      "median_factor": 1.55137774380406,
+      "geomean_factor": 1.6838425672898965,
+      "within_factor2": 0.7333333333333333,
+      "R2_log": -0.09713802220816947,
+      "MAE_Pa": 7256.048932852789
+    },
+    "direct_main": {
+      "n": 30,
+      "RMSE_log10": 0.2871379866580015,
+      "MAE_log10": 0.2349081754442775,
+      "median_factor": 1.5293357940984171,
+      "geomean_factor": 1.7175452015641033,
+      "within_factor2": 0.7,
+      "R2_log": -0.09782800128402735,
+      "MAE_Pa": 7488.567716836705
+    },
+    "direct_pair": {
+      "n": 30,
+      "RMSE_log10": 0.3037633513050909,
+      "MAE_log10": 0.24586580624777055,
+      "median_factor": 1.4919507492093815,
+      "geomean_factor": 1.7614316930740483,
+      "within_factor2": 0.6333333333333333,
+      "R2_log": -0.22863746188667733,
+      "MAE_Pa": 8419.793490061951
+    },
+    "direct_calibrated": {
+      "n": 30,
+      "RMSE_log10": 0.2953360919239802,
+      "MAE_log10": 0.24192768574698043,
+      "median_factor": 1.5394411604140552,
+      "geomean_factor": 1.7455314807614228,
+      "within_factor2": 0.7,
+      "R2_log": -0.16141130585828845,
+      "MAE_Pa": 7664.62502238627
+    },
+    "joint_gp": {
+      "n": 30,
+      "RMSE_log10": 0.3027009507580399,
+      "MAE_log10": 0.23309781114668957,
+      "median_factor": 1.4724417231091167,
+      "geomean_factor": 1.7104004855266388,
+      "within_factor2": 0.7333333333333333,
+      "R2_log": -0.22005826706925813,
+      "MAE_Pa": 7526.466648574815
+    }
+  },
+  "hyperparameters_by_fold": {
+    "base": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": null
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": null
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": null
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": null
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": null
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": null
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": null
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": null
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": null
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": null
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": null
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": null
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": null
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": null
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": null
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": null
+      }
+    ],
+    "offset": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": null
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": null
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": null
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": null
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": null
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": null
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": null
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": null
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": null
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": null
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": null
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": null
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": null
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": null
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": null
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": null
+      }
+    ],
+    "ridge_ion": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": 0.1
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": 1
+      }
+    ],
+    "ridge_main": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": 0.1
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": 10
+      }
+    ],
+    "ridge_pair": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": 10
+      }
+    ],
+    "ridge_interaction": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": 100
+      }
+    ],
+    "kernel_residual": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": [
+          3,
+          1
+        ]
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": [
+          10,
+          0.1
+        ]
+      }
+    ],
+    "target_mean": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": null
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": null
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": null
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": null
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": null
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": null
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": null
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": null
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": null
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": null
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": null
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": null
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": null
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": null
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": null
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": null
+      }
+    ],
+    "direct_ion": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": 100
+      }
+    ],
+    "direct_main": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": 10
+      }
+    ],
+    "direct_pair": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": 10
+      }
+    ],
+    "direct_calibrated": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": 10
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": 1
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": 100
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": 10
+      }
+    ],
+    "joint_gp": [
+      {
+        "fold": 1,
+        "held_ids": [
+          "KS_10"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 2,
+        "held_ids": [
+          "KS_8"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 3,
+        "held_ids": [
+          "KS_3"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 4,
+        "held_ids": [
+          "KS_6"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 5,
+        "held_ids": [
+          "KS_1"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 6,
+        "held_ids": [
+          "KS_7"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 7,
+        "held_ids": [
+          "KS_15"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 8,
+        "held_ids": [
+          "KS_24",
+          "KS_28",
+          "KS_31",
+          "KS_33",
+          "KS_36",
+          "KS_37"
+        ],
+        "param": [
+          4,
+          0.03,
+          0.3
+        ]
+      },
+      {
+        "fold": 9,
+        "held_ids": [
+          "KS_13",
+          "KS_14"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.9
+        ]
+      },
+      {
+        "fold": 10,
+        "held_ids": [
+          "KS_20",
+          "KS_22",
+          "KS_35"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 11,
+        "held_ids": [
+          "KS_2"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 12,
+        "held_ids": [
+          "KS_18",
+          "KS_19",
+          "KS_26",
+          "KS_32"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.9
+        ]
+      },
+      {
+        "fold": 13,
+        "held_ids": [
+          "KS_16"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.9
+        ]
+      },
+      {
+        "fold": 14,
+        "held_ids": [
+          "KS_23",
+          "KS_25",
+          "KS_27",
+          "KS_30"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.9
+        ]
+      },
+      {
+        "fold": 15,
+        "held_ids": [
+          "KS_11",
+          "KS_12"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "fold": 16,
+        "held_ids": [
+          "KS_17",
+          "KS_21",
+          "KS_29",
+          "KS_34"
+        ],
+        "param": [
+          4,
+          0.3,
+          0.3
+        ]
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "KS_1",
+      "group": "0.25000000|0.25000000|0.00000000",
+      "G_observed_Pa": 11584.627775173445,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 9596.415829402295,
+        "offset": 8040.4066718845825,
+        "ridge_ion": 8665.310512784918,
+        "ridge_main": 7245.640797569133,
+        "ridge_pair": 6287.593809816184,
+        "ridge_interaction": 7771.125506518232,
+        "kernel_residual": 6660.668924894295,
+        "target_mean": 14603.876244327634,
+        "direct_ion": 10258.626418709735,
+        "direct_main": 7857.618275003857,
+        "direct_pair": 7008.447760819282,
+        "direct_calibrated": 7768.872239305636,
+        "joint_gp": 8878.758914407133
+      }
+    },
+    {
+      "id": "KS_2",
+      "group": "0.56250000|0.06250000|0.00000000",
+      "G_observed_Pa": 9525.092318941333,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 16750.74086926633,
+        "offset": 14358.536771039137,
+        "ridge_ion": 16075.34945438443,
+        "ridge_main": 10703.593308074913,
+        "ridge_pair": 9603.108968411132,
+        "ridge_interaction": 13022.054650214895,
+        "kernel_residual": 11039.659948360308,
+        "target_mean": 14690.76096036728,
+        "direct_ion": 10453.435427276117,
+        "direct_main": 15320.936213841973,
+        "direct_pair": 14258.80820227422,
+        "direct_calibrated": 14114.50228146836,
+        "joint_gp": 12451.963081434476
+      }
+    },
+    {
+      "id": "KS_3",
+      "group": "0.06250000|0.56250000|0.00000000",
+      "G_observed_Pa": 8761.837003277022,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 7793.487427733759,
+        "offset": 6543.912044209871,
+        "ridge_ion": 7092.27568824272,
+        "ridge_main": 11890.674473658533,
+        "ridge_pair": 8580.393692371441,
+        "ridge_interaction": 7300.929178436921,
+        "kernel_residual": 9102.974820968928,
+        "target_mean": 14727.990828525166,
+        "direct_ion": 10537.68013916159,
+        "direct_main": 10436.979391102266,
+        "direct_pair": 7888.721869589118,
+        "direct_calibrated": 10632.376768826392,
+        "joint_gp": 7144.551154883313
+      }
+    },
+    {
+      "id": "KS_6",
+      "group": "0.16666667|0.16666667|0.16666667",
+      "G_observed_Pa": 6895.13,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 4489.11376813018,
+        "offset": 3733.873535144406,
+        "ridge_ion": 3948.2171401850865,
+        "ridge_main": 4119.780112674658,
+        "ridge_pair": 4452.93883547564,
+        "ridge_interaction": 4717.139097767191,
+        "kernel_residual": 4336.882498410359,
+        "target_mean": 14835.309716467624,
+        "direct_ion": 10783.123626785393,
+        "direct_main": 4933.235939563335,
+        "direct_pair": 10036.37690891644,
+        "direct_calibrated": 4804.835801531846,
+        "joint_gp": 7421.69113242437
+      }
+    },
+    {
+      "id": "KS_7",
+      "group": "0.37500000|0.09375000|0.09375000",
+      "G_observed_Pa": 9371.275699047343,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 10248.62999604733,
+        "offset": 8659.454455433857,
+        "ridge_ion": 9539.550254978254,
+        "ridge_main": 6809.900104011153,
+        "ridge_pair": 6453.189890252625,
+        "ridge_interaction": 8575.228585872728,
+        "kernel_residual": 7604.0828074847095,
+        "target_mean": 14698.010359278884,
+        "direct_ion": 10469.803267308687,
+        "direct_main": 7981.690228829131,
+        "direct_pair": 7293.950974525081,
+        "direct_calibrated": 7802.5352467916955,
+        "joint_gp": 10563.760218318064
+      }
+    },
+    {
+      "id": "KS_8",
+      "group": "0.05000000|0.45000000|0.05000000",
+      "G_observed_Pa": 2635.13,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 6664.589758533677,
+        "offset": 5776.058758165498,
+        "ridge_ion": 6798.847045421237,
+        "ridge_main": 11703.3917832154,
+        "ridge_pair": 13070.35230727446,
+        "ridge_interaction": 11665.296762901628,
+        "kernel_residual": 10936.763201676438,
+        "target_mean": 15274.09255439632,
+        "direct_ion": 11827.415869976174,
+        "direct_main": 9422.004476915292,
+        "direct_pair": 10770.693538573387,
+        "direct_calibrated": 9750.064259641784,
+        "joint_gp": 10097.26751137946
+      }
+    },
+    {
+      "id": "KS_10",
+      "group": "0.00000000|1.00000000|0.00000000",
+      "G_observed_Pa": 25404.3,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 5090.451914152318,
+        "offset": 4085.5184770431642,
+        "ridge_ion": 7477.354313583761,
+        "ridge_main": 11042.430696739175,
+        "ridge_pair": 6864.794066183211,
+        "ridge_interaction": 12904.604735800334,
+        "kernel_residual": 10431.873853919154,
+        "target_mean": 14260.47687135411,
+        "direct_ion": 15451.147548030602,
+        "direct_main": 17325.6649577982,
+        "direct_pair": 12656.969596169554,
+        "direct_calibrated": 16174.307160371902,
+        "joint_gp": 13252.73257532858
+      }
+    },
+    {
+      "id": "KS_11",
+      "group": "0.67000000|0.00000000|0.16500000",
+      "G_observed_Pa": 13342.99,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 12361.068313319369,
+        "offset": 10786.612059962057,
+        "ridge_ion": 21030.743810611883,
+        "ridge_main": 16271.398088221056,
+        "ridge_pair": 12052.536279753951,
+        "ridge_interaction": 13307.581747172153,
+        "kernel_residual": 14317.758743389102,
+        "target_mean": 14938.003891599237,
+        "direct_ion": 17276.37550110599,
+        "direct_main": 18221.991028529188,
+        "direct_pair": 16363.761368018757,
+        "direct_calibrated": 16628.30547186274,
+        "joint_gp": 18995.58226755983
+      }
+    },
+    {
+      "id": "KS_12",
+      "group": "0.67000000|0.00000000|0.16500000",
+      "G_observed_Pa": 6147.74,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 24104.256668340484,
+        "offset": 21034.044880650174,
+        "ridge_ion": 12981.093485480756,
+        "ridge_main": 11756.694488470215,
+        "ridge_pair": 15966.4773518929,
+        "ridge_interaction": 14373.36634668911,
+        "kernel_residual": 12725.907354823901,
+        "target_mean": 14938.003891599237,
+        "direct_ion": 12140.635088283214,
+        "direct_main": 12290.808893048865,
+        "direct_pair": 14260.019746281743,
+        "direct_calibrated": 15020.901785675378,
+        "joint_gp": 11938.888108908403
+      }
+    },
+    {
+      "id": "KS_13",
+      "group": "0.45000000|0.20000000|0.00000000",
+      "G_observed_Pa": 23769.02,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 8891.185861592303,
+        "offset": 7044.838922626856,
+        "ridge_ion": 9348.174418949957,
+        "ridge_main": 8273.1245810093,
+        "ridge_pair": 7065.362444842113,
+        "ridge_interaction": 7727.805731917261,
+        "kernel_residual": 8393.542696768924,
+        "target_mean": 14095.322316175627,
+        "direct_ion": 21930.453527109014,
+        "direct_main": 20752.048428917107,
+        "direct_pair": 18054.218714388495,
+        "direct_calibrated": 17881.187448305875,
+        "joint_gp": 14102.996425108293
+      }
+    },
+    {
+      "id": "KS_14",
+      "group": "0.45000000|0.20000000|0.00000000",
+      "G_observed_Pa": 22126.83,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 9790.08145242959,
+        "offset": 7757.06952316613,
+        "ridge_ion": 7727.891429147977,
+        "ridge_main": 6446.346213758383,
+        "ridge_pair": 7021.242272602681,
+        "ridge_interaction": 7196.496672912151,
+        "kernel_residual": 6521.032288607781,
+        "target_mean": 14095.322316175627,
+        "direct_ion": 14377.593857223621,
+        "direct_main": 14934.80699276464,
+        "direct_pair": 15493.485505983717,
+        "direct_calibrated": 13035.320016114072,
+        "joint_gp": 12941.66492597023
+      }
+    },
+    {
+      "id": "KS_15",
+      "group": "0.37500000|0.16500000|0.04250000",
+      "G_observed_Pa": 9506.54,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 39954.25855306161,
+        "offset": 35164.5587816754,
+        "ridge_ion": 19599.558359765448,
+        "ridge_main": 20399.10782576259,
+        "ridge_pair": 21708.116348959462,
+        "ridge_interaction": 26626.118429319948,
+        "kernel_residual": 23334.28649050113,
+        "target_mean": 14691.628911906542,
+        "direct_ion": 21949.574125405827,
+        "direct_main": 17871.955161093556,
+        "direct_pair": 18682.30109620797,
+        "direct_calibrated": 18222.95527414895,
+        "joint_gp": 28646.213818763415
+      }
+    },
+    {
+      "id": "KS_16",
+      "group": "0.57000000|0.14500000|0.03500000",
+      "G_observed_Pa": 5228.04,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 34349.41589774249,
+        "offset": 30643.717430682518,
+        "ridge_ion": 20108.78543309788,
+        "ridge_main": 18707.29224219268,
+        "ridge_pair": 18480.249434362155,
+        "ridge_interaction": 24080.444208307446,
+        "kernel_residual": 19809.04017394557,
+        "target_mean": 14960.260281552872,
+        "direct_ion": 12441.760407332058,
+        "direct_main": 15276.908372997934,
+        "direct_pair": 13327.514677068459,
+        "direct_calibrated": 14054.847065944336,
+        "joint_gp": 23973.64408242417
+      }
+    },
+    {
+      "id": "KS_17",
+      "group": "1.00000000|0.00000000|0.00000000",
+      "G_observed_Pa": 51800.0,
+      "legacy_overlap": true,
+      "predictions": {
+        "base": 53897.22987328513,
+        "offset": 47952.5727831195,
+        "ridge_ion": 78053.69306177998,
+        "ridge_main": 48183.6607449994,
+        "ridge_pair": 40096.51424337327,
+        "ridge_interaction": 50802.391986078444,
+        "kernel_residual": 40817.35653664987,
+        "target_mean": 12652.91367417584,
+        "direct_ion": 14356.163018152829,
+        "direct_main": 26503.356660524925,
+        "direct_pair": 19350.360599346204,
+        "direct_calibrated": 27601.02205001178,
+        "joint_gp": 18549.594697871256
+      }
+    },
+    {
+      "id": "KS_18",
+      "group": "0.57000000|0.00000000|0.32250000",
+      "G_observed_Pa": 17083.3,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 13219.902890513944,
+        "offset": 11393.530299432798,
+        "ridge_ion": 17800.79135780375,
+        "ridge_main": 17128.183208793598,
+        "ridge_pair": 13977.363930465935,
+        "ridge_interaction": 14497.762324417356,
+        "kernel_residual": 16835.56578423353,
+        "target_mean": 14870.094165210145,
+        "direct_ion": 17393.512340427413,
+        "direct_main": 17467.195299084855,
+        "direct_pair": 14831.636982345974,
+        "direct_calibrated": 17417.008427335964,
+        "joint_gp": 19397.778979222217
+      }
+    },
+    {
+      "id": "KS_19",
+      "group": "0.57000000|0.00000000|0.32250000",
+      "G_observed_Pa": 14015.37,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 41131.79793837799,
+        "offset": 35449.3062439461,
+        "ridge_ion": 16505.025826700217,
+        "ridge_main": 20369.52168649199,
+        "ridge_pair": 17367.730739883078,
+        "ridge_interaction": 15334.374795810063,
+        "kernel_residual": 18409.777612080245,
+        "target_mean": 14870.094165210145,
+        "direct_ion": 16668.790156925003,
+        "direct_main": 17583.911991172426,
+        "direct_pair": 15170.732120369777,
+        "direct_calibrated": 17967.657558657964,
+        "joint_gp": 20780.60233937731
+      }
+    },
+    {
+      "id": "KS_20",
+      "group": "0.50000000|0.00000000|0.50000000",
+      "G_observed_Pa": 6460.5,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 23180.292210053598,
+        "offset": 20048.52010182179,
+        "ridge_ion": 9667.025857627332,
+        "ridge_main": 14937.319488690962,
+        "ridge_pair": 12127.059353740751,
+        "ridge_interaction": 13932.392532412116,
+        "kernel_residual": 14113.388069588273,
+        "target_mean": 15476.640170564195,
+        "direct_ion": 23512.58332030938,
+        "direct_main": 20503.56584813576,
+        "direct_pair": 17938.670835368295,
+        "direct_calibrated": 19863.142326469893,
+        "joint_gp": 15192.392897897247
+      }
+    },
+    {
+      "id": "KS_21",
+      "group": "1.00000000|0.00000000|0.00000000",
+      "G_observed_Pa": 24946.47,
+      "legacy_overlap": true,
+      "predictions": {
+        "base": 31227.88244169386,
+        "offset": 27783.567154909735,
+        "ridge_ion": 65621.70479549373,
+        "ridge_main": 34963.92245317477,
+        "ridge_pair": 32904.74211780376,
+        "ridge_interaction": 32434.143729695137,
+        "kernel_residual": 28702.59941360618,
+        "target_mean": 12652.91367417584,
+        "direct_ion": 13478.040630071222,
+        "direct_main": 22818.8641607457,
+        "direct_pair": 19835.64630184801,
+        "direct_calibrated": 23489.61476580458,
+        "joint_gp": 14456.338433862846
+      }
+    },
+    {
+      "id": "KS_22",
+      "group": "0.50000000|0.00000000|0.50000000",
+      "G_observed_Pa": 9970.04,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 5712.067214841013,
+        "offset": 4940.33868693118,
+        "ridge_ion": 10305.871677505655,
+        "ridge_main": 10683.636261969546,
+        "ridge_pair": 9404.493486234194,
+        "ridge_interaction": 7474.2335003719145,
+        "kernel_residual": 10177.594018786836,
+        "target_mean": 15476.640170564195,
+        "direct_ion": 18232.167062117765,
+        "direct_main": 14886.068722919414,
+        "direct_pair": 13902.136676510809,
+        "direct_calibrated": 14399.484291523197,
+        "joint_gp": 12186.082467289438
+      }
+    },
+    {
+      "id": "KS_23",
+      "group": "0.57000000|0.32250000|0.00000000",
+      "G_observed_Pa": 29327.23,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 29236.739526455753,
+        "offset": 25626.060011904865,
+        "ridge_ion": 10553.895141524365,
+        "ridge_main": 14509.936039361086,
+        "ridge_pair": 19489.18043587875,
+        "ridge_interaction": 9616.000232401442,
+        "kernel_residual": 14816.339485847471,
+        "target_mean": 13655.141494045947,
+        "direct_ion": 9338.401486067172,
+        "direct_main": 12767.311935972379,
+        "direct_pair": 19723.142161590426,
+        "direct_calibrated": 12801.871791275158,
+        "joint_gp": 9946.323191052334
+      }
+    },
+    {
+      "id": "KS_24",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "G_observed_Pa": 7381.92,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 13361.591613709219,
+        "offset": 9959.58407488191,
+        "ridge_ion": 5517.501303924117,
+        "ridge_main": 8646.92205702872,
+        "ridge_pair": 7955.944270994367,
+        "ridge_interaction": 8146.4668195921195,
+        "kernel_residual": 8192.35238658857,
+        "target_mean": 13605.481278903737,
+        "direct_ion": 11094.576842738637,
+        "direct_main": 8032.258601497675,
+        "direct_pair": 8205.289879669432,
+        "direct_calibrated": 8160.653751395483,
+        "joint_gp": 7450.146287630746
+      }
+    },
+    {
+      "id": "KS_25",
+      "group": "0.57000000|0.32250000|0.00000000",
+      "G_observed_Pa": 10208.47,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 22505.145866097675,
+        "offset": 19725.80485657201,
+        "ridge_ion": 22683.1509976066,
+        "ridge_main": 22219.898623002286,
+        "ridge_pair": 29266.6699132613,
+        "ridge_interaction": 28806.05294368851,
+        "kernel_residual": 24236.611670314654,
+        "target_mean": 13655.141494045947,
+        "direct_ion": 10289.316657890879,
+        "direct_main": 27138.779591774648,
+        "direct_pair": 43873.51500812619,
+        "direct_calibrated": 27040.064830056457,
+        "joint_gp": 14927.370863941747
+      }
+    },
+    {
+      "id": "KS_26",
+      "group": "0.57000000|0.00000000|0.32250000",
+      "G_observed_Pa": 7194.71,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 15335.455401170604,
+        "offset": 13216.812348463849,
+        "ridge_ion": 15352.540860338839,
+        "ridge_main": 14836.317374560025,
+        "ridge_pair": 12333.557486172062,
+        "ridge_interaction": 23873.595908001207,
+        "kernel_residual": 17079.34148879587,
+        "target_mean": 14870.094165210145,
+        "direct_ion": 13264.462311236583,
+        "direct_main": 12219.471234296465,
+        "direct_pair": 11882.085461527946,
+        "direct_calibrated": 12572.582445832828,
+        "joint_gp": 12553.121725250405
+      }
+    },
+    {
+      "id": "KS_27",
+      "group": "0.57000000|0.32250000|0.00000000",
+      "G_observed_Pa": 22772.63,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 26003.79852949723,
+        "offset": 22792.380834784602,
+        "ridge_ion": 39024.09233730664,
+        "ridge_main": 36990.73817896765,
+        "ridge_pair": 47038.14806536024,
+        "ridge_interaction": 56044.3628265872,
+        "kernel_residual": 40193.2299334492,
+        "target_mean": 13655.141494045947,
+        "direct_ion": 21834.10012804793,
+        "direct_main": 35672.68325660647,
+        "direct_pair": 49452.72114026933,
+        "direct_calibrated": 36063.7364709317,
+        "joint_gp": 27339.49624599612
+      }
+    },
+    {
+      "id": "KS_28",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "G_observed_Pa": 18214.92,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 11848.910973144944,
+        "offset": 8832.048489773286,
+        "ridge_ion": 15221.75800504806,
+        "ridge_main": 15955.449291275658,
+        "ridge_pair": 14477.23808801449,
+        "ridge_interaction": 12358.399563815019,
+        "kernel_residual": 15085.83085544069,
+        "target_mean": 13605.481278903737,
+        "direct_ion": 25819.12312179081,
+        "direct_main": 14337.00920050804,
+        "direct_pair": 13279.821601287282,
+        "direct_calibrated": 14824.757113066727,
+        "joint_gp": 15558.578917563445
+      }
+    },
+    {
+      "id": "KS_29",
+      "group": "1.00000000|0.00000000|0.00000000",
+      "G_observed_Pa": 75900.0,
+      "legacy_overlap": true,
+      "predictions": {
+        "base": 215675.25920528796,
+        "offset": 191887.1079065601,
+        "ridge_ion": 86073.84172846827,
+        "ridge_main": 70586.65622674498,
+        "ridge_pair": 60890.67814878728,
+        "ridge_interaction": 110787.98306719935,
+        "kernel_residual": 61668.4540121676,
+        "target_mean": 12652.91367417584,
+        "direct_ion": 13527.54472319475,
+        "direct_main": 24252.045442059625,
+        "direct_pair": 18459.28955267405,
+        "direct_calibrated": 26076.40911413876,
+        "joint_gp": 17547.382683659016
+      }
+    },
+    {
+      "id": "KS_30",
+      "group": "0.57000000|0.32250000|0.00000000",
+      "G_observed_Pa": 39700.85,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 86185.76500358053,
+        "offset": 75541.99346186206,
+        "ridge_ion": 31946.675149655468,
+        "ridge_main": 41724.90262871565,
+        "ridge_pair": 55727.92863754648,
+        "ridge_interaction": 46510.83846504736,
+        "kernel_residual": 44580.806477551894,
+        "target_mean": 13655.141494045947,
+        "direct_ion": 17148.439469223533,
+        "direct_main": 31173.995921524645,
+        "direct_pair": 47380.20915267118,
+        "direct_calibrated": 31501.431862989153,
+        "joint_gp": 34302.491455234114
+      }
+    },
+    {
+      "id": "KS_31",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "G_observed_Pa": 30400.0,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 34959.05455133759,
+        "offset": 26058.096449018347,
+        "ridge_ion": 11660.21791933448,
+        "ridge_main": 13677.94531051077,
+        "ridge_pair": 16268.506974664302,
+        "ridge_interaction": 17929.276946591606,
+        "kernel_residual": 15398.968820539261,
+        "target_mean": 13605.481278903737,
+        "direct_ion": 19005.94299126562,
+        "direct_main": 14313.794229362076,
+        "direct_pair": 13292.035927679244,
+        "direct_calibrated": 14246.54289082553,
+        "joint_gp": 11016.74077591569
+      }
+    },
+    {
+      "id": "KS_32",
+      "group": "0.57000000|0.00000000|0.32250000",
+      "G_observed_Pa": 12182.31,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 8267.409268267964,
+        "offset": 7125.239782465648,
+        "ridge_ion": 15408.96398789425,
+        "ridge_main": 12607.719859424431,
+        "ridge_pair": 11541.78592840408,
+        "ridge_interaction": 11956.612327030396,
+        "kernel_residual": 12539.959086096147,
+        "target_mean": 14870.094165210145,
+        "direct_ion": 15774.359915631763,
+        "direct_main": 14323.771551657614,
+        "direct_pair": 14207.63715312406,
+        "direct_calibrated": 14057.922579961261,
+        "joint_gp": 13979.146618308769
+      }
+    },
+    {
+      "id": "KS_33",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "G_observed_Pa": 23545.31,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 7070.25104580618,
+        "offset": 5270.087707888005,
+        "ridge_ion": 11189.015307315949,
+        "ridge_main": 12528.647327729004,
+        "ridge_pair": 10690.653740950243,
+        "ridge_interaction": 7948.525400522072,
+        "kernel_residual": 11414.943314431244,
+        "target_mean": 13605.481278903737,
+        "direct_ion": 15875.048440578124,
+        "direct_main": 11706.902909395694,
+        "direct_pair": 11517.857739531926,
+        "direct_calibrated": 11900.37505517859,
+        "joint_gp": 13351.558095279794
+      }
+    },
+    {
+      "id": "KS_34",
+      "group": "1.00000000|0.00000000|0.00000000",
+      "G_observed_Pa": 27166.51,
+      "legacy_overlap": true,
+      "predictions": {
+        "base": 62621.0916053473,
+        "offset": 55714.22613042695,
+        "ridge_ion": 27205.11669008845,
+        "ridge_main": 23211.31994968811,
+        "ridge_pair": 20276.11915540057,
+        "ridge_interaction": 33073.99972422761,
+        "kernel_residual": 19791.088659698074,
+        "target_mean": 12652.91367417584,
+        "direct_ion": 11444.598464268543,
+        "direct_main": 14118.243052438593,
+        "direct_pair": 10997.667826680477,
+        "direct_calibrated": 14602.913125823967,
+        "joint_gp": 9141.463803464863
+      }
+    },
+    {
+      "id": "KS_35",
+      "group": "0.50000000|0.00000000|0.50000000",
+      "G_observed_Pa": 6344.4,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 9748.967084691294,
+        "offset": 8431.833421179312,
+        "ridge_ion": 3908.378070634245,
+        "ridge_main": 6488.634191596512,
+        "ridge_pair": 5265.893170598976,
+        "ridge_interaction": 4797.416362159809,
+        "kernel_residual": 6031.819254375272,
+        "target_mean": 15476.640170564195,
+        "direct_ion": 12200.63867354206,
+        "direct_main": 9996.291756519626,
+        "direct_pair": 8723.258061087736,
+        "direct_calibrated": 9572.716528299197,
+        "joint_gp": 6559.698150797446
+      }
+    },
+    {
+      "id": "KS_36",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "G_observed_Pa": 24400.0,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 9174.966106134792,
+        "offset": 6838.91926651052,
+        "ridge_ion": 6804.220476443202,
+        "ridge_main": 6835.629584592816,
+        "ridge_pair": 6521.345020301073,
+        "ridge_interaction": 6879.4565475883155,
+        "kernel_residual": 6416.367853372157,
+        "target_mean": 13605.481278903737,
+        "direct_ion": 7794.597378657038,
+        "direct_main": 8468.456874652205,
+        "direct_pair": 7587.750818795679,
+        "direct_calibrated": 7904.753700426942,
+        "joint_gp": 6627.4159831652
+      }
+    },
+    {
+      "id": "KS_37",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "G_observed_Pa": 23800.0,
+      "legacy_overlap": false,
+      "predictions": {
+        "base": 11819.018223842022,
+        "offset": 8809.76676177867,
+        "ridge_ion": 8765.068435113822,
+        "ridge_main": 3335.6497039303144,
+        "ridge_pair": 5781.993866184669,
+        "ridge_interaction": 8305.949696363386,
+        "kernel_residual": 5733.239594547492,
+        "target_mean": 13605.481278903737,
+        "direct_ion": 7794.597378657038,
+        "direct_main": 5234.488143804058,
+        "direct_pair": 5490.674830057982,
+        "direct_calibrated": 4731.855272263133,
+        "joint_gp": 6306.371686232869
+      }
+    }
+  ]
+}

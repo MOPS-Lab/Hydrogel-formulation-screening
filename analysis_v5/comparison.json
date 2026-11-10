@@ -1,0 +1,1359 @@
+{
+  "description": "Nested leave-one-KS-composition-out, 4-fold inner tuning and algorithm selection; matching legacy compositions excluded; all KS positive records tested; subset excludes 4 near-repeat controls.",
+  "metrics_all": {
+    "v4_gp": {
+      "n": 34,
+      "RMSE_log10": 0.3268464762319412,
+      "MAE_log10": 0.2583802351959355,
+      "median_factor": 1.6975182969677962,
+      "within_factor2": 0.6764705882352942,
+      "R2_log": -0.09716264282949938
+    },
+    "ks_main": {
+      "n": 34,
+      "RMSE_log10": 0.32736447077892106,
+      "MAE_log10": 0.2753467420385421,
+      "median_factor": 1.7534174622254879,
+      "within_factor2": 0.6470588235294118,
+      "R2_log": -0.1006430206510085
+    },
+    "joint_ridge": {
+      "n": 34,
+      "RMSE_log10": 0.3287689704255739,
+      "MAE_log10": 0.2785353429426059,
+      "median_factor": 1.7493252130393657,
+      "within_factor2": 0.5882352941176471,
+      "R2_log": -0.11010751039513456
+    },
+    "mixture_gp": {
+      "n": 34,
+      "RMSE_log10": 0.3455338529593231,
+      "MAE_log10": 0.2873532036825156,
+      "median_factor": 1.9010041123501598,
+      "within_factor2": 0.5882352941176471,
+      "R2_log": -0.22620929372350962
+    },
+    "trend_gp": {
+      "n": 34,
+      "RMSE_log10": 0.31742395383941846,
+      "MAE_log10": 0.27463756836618064,
+      "median_factor": 1.722325027245111,
+      "within_factor2": 0.6470588235294118,
+      "R2_log": -0.03481518143922635
+    },
+    "ensemble": {
+      "n": 34,
+      "RMSE_log10": 0.2997206047152124,
+      "MAE_log10": 0.2524739653633516,
+      "median_factor": 1.6401241746592532,
+      "within_factor2": 0.6764705882352942,
+      "R2_log": 0.07739331315001952
+    },
+    "nested_selector": {
+      "n": 34,
+      "RMSE_log10": 0.35768157812351814,
+      "MAE_log10": 0.305538575071429,
+      "median_factor": 1.904189903354443,
+      "within_factor2": 0.5588235294117647,
+      "R2_log": -0.31394305477091766
+    }
+  },
+  "metrics_novel": {
+    "v4_gp": {
+      "n": 30,
+      "RMSE_log10": 0.3027009507580399,
+      "MAE_log10": 0.23309781114668957,
+      "median_factor": 1.4724417231091167,
+      "within_factor2": 0.7333333333333333,
+      "R2_log": -0.22005826706925813
+    },
+    "ks_main": {
+      "n": 30,
+      "RMSE_log10": 0.29840437203390696,
+      "MAE_log10": 0.2509423172122659,
+      "median_factor": 1.7073653950682381,
+      "within_factor2": 0.7,
+      "R2_log": -0.1856687284531897
+    },
+    "joint_ridge": {
+      "n": 30,
+      "RMSE_log10": 0.28321654320962153,
+      "MAE_log10": 0.24511247624283772,
+      "median_factor": 1.6419747115302368,
+      "within_factor2": 0.6333333333333333,
+      "R2_log": -0.06804668743050835
+    },
+    "mixture_gp": {
+      "n": 30,
+      "RMSE_log10": 0.30748431180122854,
+      "MAE_log10": 0.25496644478291514,
+      "median_factor": 1.7511650041991067,
+      "within_factor2": 0.6666666666666666,
+      "R2_log": -0.25892230115364523
+    },
+    "trend_gp": {
+      "n": 30,
+      "RMSE_log10": 0.31252736718391994,
+      "MAE_log10": 0.2694044671678711,
+      "median_factor": 1.6927311591558836,
+      "within_factor2": 0.6666666666666666,
+      "R2_log": -0.3005561546646556
+    },
+    "ensemble": {
+      "n": 30,
+      "RMSE_log10": 0.28343612022831977,
+      "MAE_log10": 0.23650118007490695,
+      "median_factor": 1.5943554074781818,
+      "within_factor2": 0.7333333333333333,
+      "R2_log": -0.06970343682501445
+    },
+    "nested_selector": {
+      "n": 30,
+      "RMSE_log10": 0.3204761496332362,
+      "MAE_log10": 0.27571613932217054,
+      "median_factor": 1.8262106360274872,
+      "within_factor2": 0.6,
+      "R2_log": -0.36755383027551725
+    }
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "held_ids": [
+        "KS_10"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.25
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "held_ids": [
+        "KS_8"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          0.25
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.5
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "held_ids": [
+        "KS_3"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.5
+        ]
+      }
+    },
+    {
+      "fold": 4,
+      "held_ids": [
+        "KS_6"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.25
+        ]
+      }
+    },
+    {
+      "fold": 5,
+      "held_ids": [
+        "KS_1"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.25
+        ]
+      }
+    },
+    {
+      "fold": 6,
+      "held_ids": [
+        "KS_7"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.25
+        ]
+      }
+    },
+    {
+      "fold": 7,
+      "held_ids": [
+        "KS_15"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          0.25
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.5
+        ]
+      }
+    },
+    {
+      "fold": 8,
+      "held_ids": [
+        "KS_24",
+        "KS_28",
+        "KS_31",
+        "KS_33",
+        "KS_36",
+        "KS_37"
+      ],
+      "chosen": "ks_main",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.03,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.1,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          1.5,
+          0.1,
+          0.3
+        ],
+        "ensemble": [
+          0.25
+        ]
+      }
+    },
+    {
+      "fold": 9,
+      "held_ids": [
+        "KS_13",
+        "KS_14"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.9
+        ],
+        "ks_main": [
+          "main",
+          100,
+          0.0
+        ],
+        "joint_ridge": [
+          "concentration",
+          10,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.75
+        ]
+      }
+    },
+    {
+      "fold": 10,
+      "held_ids": [
+        "KS_20",
+        "KS_22",
+        "KS_35"
+      ],
+      "chosen": "ks_main",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          10,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.25
+        ]
+      }
+    },
+    {
+      "fold": 11,
+      "held_ids": [
+        "KS_2"
+      ],
+      "chosen": "ks_main",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.25
+        ]
+      }
+    },
+    {
+      "fold": 12,
+      "held_ids": [
+        "KS_18",
+        "KS_19",
+        "KS_26",
+        "KS_32"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.9
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.75
+        ]
+      }
+    },
+    {
+      "fold": 13,
+      "held_ids": [
+        "KS_16"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.9
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.5
+        ]
+      }
+    },
+    {
+      "fold": 14,
+      "held_ids": [
+        "KS_23",
+        "KS_25",
+        "KS_27",
+        "KS_30"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.9
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.5
+        ]
+      }
+    },
+    {
+      "fold": 15,
+      "held_ids": [
+        "KS_11",
+        "KS_12"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          1,
+          0.0
+        ],
+        "joint_ridge": [
+          "joint",
+          1,
+          1
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          4,
+          0.5,
+          0.3
+        ],
+        "ensemble": [
+          0.5
+        ]
+      }
+    },
+    {
+      "fold": 16,
+      "held_ids": [
+        "KS_17",
+        "KS_21",
+        "KS_29",
+        "KS_34"
+      ],
+      "chosen": "joint_ridge",
+      "params": {
+        "v4_gp": [
+          "raw",
+          4,
+          0.3,
+          0.3
+        ],
+        "ks_main": [
+          "main",
+          100,
+          0.0
+        ],
+        "joint_ridge": [
+          "interactions",
+          100,
+          0.25
+        ],
+        "mixture_gp": [
+          "mixture",
+          4,
+          0.1,
+          0.3
+        ],
+        "trend_gp": [
+          "mixture",
+          1.5,
+          0.1,
+          0.3
+        ],
+        "ensemble": [
+          0.5
+        ]
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "KS_1",
+      "group": "0.25000000|0.25000000|0.00000000",
+      "family": "ALG+TOCNF",
+      "ion": "Ca",
+      "observed": 11584.627775173445,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 8878.758914407133,
+        "ks_main": 6682.784889307228,
+        "joint_ridge": 8390.444344872047,
+        "mixture_gp": 7347.806136770746,
+        "trend_gp": 7800.469962098792,
+        "ensemble": 7627.249413992444,
+        "nested_selector": 8390.444344872047
+      }
+    },
+    {
+      "id": "KS_2",
+      "group": "0.56250000|0.06250000|0.00000000",
+      "family": "ALG+TOCNF",
+      "ion": "Ca",
+      "observed": 9525.092318941333,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 12451.963081434476,
+        "ks_main": 14750.907989755467,
+        "joint_ridge": 16490.4039589005,
+        "mixture_gp": 12124.796352780873,
+        "trend_gp": 13988.677010807964,
+        "ensemble": 12999.032824663933,
+        "nested_selector": 14750.907989755467
+      }
+    },
+    {
+      "id": "KS_3",
+      "group": "0.06250000|0.56250000|0.00000000",
+      "family": "ALG+TOCNF",
+      "ion": "Ca",
+      "observed": 8761.837003277022,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 7144.551154883313,
+        "ks_main": 10524.901077061319,
+        "joint_ridge": 5833.674453706348,
+        "mixture_gp": 6900.868596150323,
+        "trend_gp": 6006.3341591351145,
+        "ensemble": 7480.323336418788,
+        "nested_selector": 5833.674453706348
+      }
+    },
+    {
+      "id": "KS_6",
+      "group": "0.16666667|0.16666667|0.16666667",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Ca",
+      "observed": 6895.13,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 7421.69113242437,
+        "ks_main": 3686.7251465184395,
+        "joint_ridge": 3190.3353249159454,
+        "mixture_gp": 6381.648698563063,
+        "trend_gp": 4256.3829014566745,
+        "ensemble": 5702.208879492476,
+        "nested_selector": 3190.3353249159454
+      }
+    },
+    {
+      "id": "KS_7",
+      "group": "0.37500000|0.09375000|0.09375000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Ca",
+      "observed": 9371.275699047343,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 10563.760218318064,
+        "ks_main": 6950.537413640486,
+        "joint_ridge": 10092.39448567387,
+        "mixture_gp": 9719.400793482775,
+        "trend_gp": 10117.68577109448,
+        "ensemble": 8895.188500933982,
+        "nested_selector": 10092.39448567387
+      }
+    },
+    {
+      "id": "KS_8",
+      "group": "0.05000000|0.45000000|0.05000000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Ca",
+      "observed": 2635.13,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 10097.26751137946,
+        "ks_main": 8794.768195035349,
+        "joint_ridge": 6607.257934453068,
+        "mixture_gp": 9557.183762016675,
+        "trend_gp": 8590.464660531863,
+        "ensemble": 8475.897846720876,
+        "nested_selector": 6607.257934453068
+      }
+    },
+    {
+      "id": "KS_10",
+      "group": "0.00000000|1.00000000|0.00000000",
+      "family": "TOCNF",
+      "ion": "Cu",
+      "observed": 25404.3,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 13252.73257532858,
+        "ks_main": 21488.735837679247,
+        "joint_ridge": 9952.703658125276,
+        "mixture_gp": 11497.414336962434,
+        "trend_gp": 10217.311719182837,
+        "ensemble": 13085.170287634886,
+        "nested_selector": 9952.703658125276
+      }
+    },
+    {
+      "id": "KS_11",
+      "group": "0.67000000|0.00000000|0.16500000",
+      "family": "ALG+SCLG",
+      "ion": "Cu",
+      "observed": 13342.99,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 18995.58226755983,
+        "ks_main": 17357.973660328684,
+        "joint_ridge": 21651.10266595814,
+        "mixture_gp": 16707.24516148062,
+        "trend_gp": 17699.162591519605,
+        "ensemble": 17843.61115938501,
+        "nested_selector": 21651.10266595814
+      }
+    },
+    {
+      "id": "KS_12",
+      "group": "0.67000000|0.00000000|0.16500000",
+      "family": "ALG+SCLG",
+      "ion": "Al",
+      "observed": 6147.74,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 11938.888108908403,
+        "ks_main": 10901.351656712759,
+        "joint_ridge": 10165.183652457803,
+        "mixture_gp": 11904.880341420965,
+        "trend_gp": 10318.716775877692,
+        "ensemble": 12831.80077174163,
+        "nested_selector": 10165.183652457803
+      }
+    },
+    {
+      "id": "KS_13",
+      "group": "0.45000000|0.20000000|0.00000000",
+      "family": "ALG+TOCNF",
+      "ion": "Ba",
+      "observed": 23769.02,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 14102.996425108293,
+        "ks_main": 16054.610783401233,
+        "joint_ridge": 12235.052540218725,
+        "mixture_gp": 15571.85783321374,
+        "trend_gp": 12444.33375609947,
+        "ensemble": 15148.104726856745,
+        "nested_selector": 12235.052540218725
+      }
+    },
+    {
+      "id": "KS_14",
+      "group": "0.45000000|0.20000000|0.00000000",
+      "family": "ALG+TOCNF",
+      "ion": "Sr",
+      "observed": 22126.83,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 12941.66492597023,
+        "ks_main": 13749.653505910199,
+        "joint_ridge": 9492.393876396909,
+        "mixture_gp": 10786.503305376516,
+        "trend_gp": 9937.926625495598,
+        "ensemble": 13026.832738609226,
+        "nested_selector": 9492.393876396909
+      }
+    },
+    {
+      "id": "KS_15",
+      "group": "0.37500000|0.16500000|0.04250000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Fe",
+      "observed": 9506.54,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 28646.213818763415,
+        "ks_main": 15986.405600911758,
+        "joint_ridge": 14918.249073077555,
+        "mixture_gp": 18996.491986257013,
+        "trend_gp": 16519.12074788443,
+        "ensemble": 22822.444395126433,
+        "nested_selector": 14918.249073077555
+      }
+    },
+    {
+      "id": "KS_16",
+      "group": "0.57000000|0.14500000|0.03500000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Al",
+      "observed": 5228.04,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 23973.64408242417,
+        "ks_main": 14599.673657604426,
+        "joint_ridge": 20825.431331316457,
+        "mixture_gp": 13315.131072985789,
+        "trend_gp": 17336.0508864882,
+        "ensemble": 16824.108098881134,
+        "nested_selector": 20825.431331316457
+      }
+    },
+    {
+      "id": "KS_17",
+      "group": "1.00000000|0.00000000|0.00000000",
+      "family": "ALG",
+      "ion": "Ba",
+      "observed": 51800.0,
+      "legacy_overlap": true,
+      "predictions": {
+        "v4_gp": 18549.594697871256,
+        "ks_main": 15032.445744532959,
+        "joint_ridge": 16752.748127298593,
+        "mixture_gp": 16604.834193185434,
+        "trend_gp": 28515.785647558532,
+        "ensemble": 22380.90055555674,
+        "nested_selector": 16752.748127298593
+      }
+    },
+    {
+      "id": "KS_18",
+      "group": "0.57000000|0.00000000|0.32250000",
+      "family": "ALG+SCLG",
+      "ion": "Ba",
+      "observed": 17083.3,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 19397.778979222217,
+        "ks_main": 18438.429559524502,
+        "joint_ridge": 19722.11844532983,
+        "mixture_gp": 25000.692504894232,
+        "trend_gp": 24764.88908588163,
+        "ensemble": 19901.1452022799,
+        "nested_selector": 19722.11844532983
+      }
+    },
+    {
+      "id": "KS_19",
+      "group": "0.57000000|0.00000000|0.32250000",
+      "family": "ALG+SCLG",
+      "ion": "Fe",
+      "observed": 14015.37,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 20780.60233937731,
+        "ks_main": 18411.762835806418,
+        "joint_ridge": 18303.487024587437,
+        "mixture_gp": 23328.43047050231,
+        "trend_gp": 21500.488247759815,
+        "ensemble": 20686.594328655465,
+        "nested_selector": 18303.487024587437
+      }
+    },
+    {
+      "id": "KS_20",
+      "group": "0.50000000|0.00000000|0.50000000",
+      "family": "ALG+SCLG",
+      "ion": "Fe",
+      "observed": 6460.5,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 15192.392897897247,
+        "ks_main": 26010.158732632928,
+        "joint_ridge": 15719.12172607311,
+        "mixture_gp": 27944.47942695824,
+        "trend_gp": 26039.981266508636,
+        "ensemble": 22432.561830198018,
+        "nested_selector": 26010.158732632928
+      }
+    },
+    {
+      "id": "KS_21",
+      "group": "1.00000000|0.00000000|0.00000000",
+      "family": "ALG",
+      "ion": "Cu",
+      "observed": 24946.47,
+      "legacy_overlap": true,
+      "predictions": {
+        "v4_gp": 14456.338433862846,
+        "ks_main": 14388.095207950731,
+        "joint_ridge": 14113.349286531424,
+        "mixture_gp": 12070.58145130899,
+        "trend_gp": 19753.133993663727,
+        "ensemble": 17519.453922418794,
+        "nested_selector": 14113.349286531424
+      }
+    },
+    {
+      "id": "KS_22",
+      "group": "0.50000000|0.00000000|0.50000000",
+      "family": "ALG+SCLG",
+      "ion": "Cu",
+      "observed": 9970.04,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 12186.082467289438,
+        "ks_main": 18608.526248905866,
+        "joint_ridge": 11599.07854321248,
+        "mixture_gp": 17380.71334748656,
+        "trend_gp": 16276.948438294346,
+        "ensemble": 16151.54983584084,
+        "nested_selector": 18608.526248905866
+      }
+    },
+    {
+      "id": "KS_23",
+      "group": "0.57000000|0.32250000|0.00000000",
+      "family": "ALG+TOCNF",
+      "ion": "Al",
+      "observed": 29327.23,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 9946.323191052334,
+        "ks_main": 12051.14990578538,
+        "joint_ridge": 9407.831341842508,
+        "mixture_gp": 8662.31045458977,
+        "trend_gp": 8301.105791963228,
+        "ensemble": 10299.432729120072,
+        "nested_selector": 9407.831341842508
+      }
+    },
+    {
+      "id": "KS_24",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Al",
+      "observed": 7381.92,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 7450.146287630746,
+        "ks_main": 8344.368489731003,
+        "joint_ridge": 5637.434970800227,
+        "mixture_gp": 8927.065982955259,
+        "trend_gp": 9389.830981094916,
+        "ensemble": 9414.687028221411,
+        "nested_selector": 8344.368489731003
+      }
+    },
+    {
+      "id": "KS_25",
+      "group": "0.57000000|0.32250000|0.00000000",
+      "family": "ALG+TOCNF",
+      "ion": "Ca",
+      "observed": 10208.47,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 14927.370863941747,
+        "ks_main": 25277.40748132413,
+        "joint_ridge": 21843.30337651457,
+        "mixture_gp": 14338.910394585577,
+        "trend_gp": 18081.89994870662,
+        "ensemble": 15484.612127142924,
+        "nested_selector": 21843.30337651457
+      }
+    },
+    {
+      "id": "KS_26",
+      "group": "0.57000000|0.00000000|0.32250000",
+      "family": "ALG+SCLG",
+      "ion": "Ca",
+      "observed": 7194.71,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 12553.121725250405,
+        "ks_main": 14296.385829435176,
+        "joint_ridge": 12855.824951181308,
+        "mixture_gp": 14970.090766549738,
+        "trend_gp": 14864.283971341847,
+        "ensemble": 12980.861850582281,
+        "nested_selector": 12855.824951181308
+      }
+    },
+    {
+      "id": "KS_27",
+      "group": "0.57000000|0.32250000|0.00000000",
+      "family": "ALG+TOCNF",
+      "ion": "Ba",
+      "observed": 22772.63,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 27339.49624599612,
+        "ks_main": 33967.29586718684,
+        "joint_ridge": 34737.172930980414,
+        "mixture_gp": 23277.296287713838,
+        "trend_gp": 29829.1487977106,
+        "ensemble": 25917.29678610848,
+        "nested_selector": 34737.172930980414
+      }
+    },
+    {
+      "id": "KS_28",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Ba",
+      "observed": 18214.92,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 15558.578917563445,
+        "ks_main": 15120.499345000488,
+        "joint_ridge": 16112.49238904152,
+        "mixture_gp": 18925.659391286226,
+        "trend_gp": 15743.889910875707,
+        "ensemble": 17207.779560270537,
+        "nested_selector": 15120.499345000488
+      }
+    },
+    {
+      "id": "KS_29",
+      "group": "1.00000000|0.00000000|0.00000000",
+      "family": "ALG",
+      "ion": "Fe",
+      "observed": 75900.0,
+      "legacy_overlap": true,
+      "predictions": {
+        "v4_gp": 17547.382683659016,
+        "ks_main": 14712.495899647709,
+        "joint_ridge": 12620.671961130269,
+        "mixture_gp": 13375.286819464929,
+        "trend_gp": 21820.474434379685,
+        "ensemble": 20157.7999972496,
+        "nested_selector": 12620.671961130269
+      }
+    },
+    {
+      "id": "KS_30",
+      "group": "0.57000000|0.32250000|0.00000000",
+      "family": "ALG+TOCNF",
+      "ion": "Fe",
+      "observed": 39700.85,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 34302.491455234114,
+        "ks_main": 29055.369870651448,
+        "joint_ridge": 27481.07204806186,
+        "mixture_gp": 19853.514154852684,
+        "trend_gp": 23255.946954761206,
+        "ensemble": 26592.166406298824,
+        "nested_selector": 27481.07204806186
+      }
+    },
+    {
+      "id": "KS_31",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Fe",
+      "observed": 30400.0,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 11016.74077591569,
+        "ks_main": 14693.762954635382,
+        "joint_ridge": 13201.306082910536,
+        "mixture_gp": 14370.975655819633,
+        "trend_gp": 14460.186086880689,
+        "ensemble": 15679.292260917808,
+        "nested_selector": 14693.762954635382
+      }
+    },
+    {
+      "id": "KS_32",
+      "group": "0.57000000|0.00000000|0.32250000",
+      "family": "ALG+SCLG",
+      "ion": "Cu",
+      "observed": 12182.31,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 13979.146618308769,
+        "ks_main": 13651.066397932527,
+        "joint_ridge": 15050.670741030559,
+        "mixture_gp": 16302.384151253224,
+        "trend_gp": 15325.717342408238,
+        "ensemble": 14561.801371904801,
+        "nested_selector": 15050.670741030559
+      }
+    },
+    {
+      "id": "KS_33",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Cu",
+      "observed": 23545.31,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 13351.558095279794,
+        "ks_main": 11957.18619625168,
+        "joint_ridge": 11153.647050700472,
+        "mixture_gp": 13385.079959646373,
+        "trend_gp": 13060.963453274126,
+        "ensemble": 13119.299173008767,
+        "nested_selector": 11957.18619625168
+      }
+    },
+    {
+      "id": "KS_34",
+      "group": "1.00000000|0.00000000|0.00000000",
+      "family": "ALG",
+      "ion": "Al",
+      "observed": 27166.51,
+      "legacy_overlap": true,
+      "predictions": {
+        "v4_gp": 9141.463803464863,
+        "ks_main": 12285.008738126462,
+        "joint_ridge": 6823.206029301222,
+        "mixture_gp": 7521.995437330128,
+        "trend_gp": 12036.095799607145,
+        "ensemble": 10931.853695598718,
+        "nested_selector": 6823.206029301222
+      }
+    },
+    {
+      "id": "KS_35",
+      "group": "0.50000000|0.00000000|0.50000000",
+      "family": "ALG+SCLG",
+      "ion": "Al",
+      "observed": 6344.4,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 6559.698150797446,
+        "ks_main": 12975.796569489563,
+        "joint_ridge": 5050.940196315924,
+        "mixture_gp": 11839.875253820122,
+        "trend_gp": 9181.698406053136,
+        "ensemble": 10534.810193793744,
+        "nested_selector": 12975.796569489563
+      }
+    },
+    {
+      "id": "KS_36",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Ca",
+      "observed": 24400.0,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 6627.4159831652,
+        "ks_main": 8717.101041249947,
+        "joint_ridge": 8965.778794502388,
+        "mixture_gp": 6778.92456103783,
+        "trend_gp": 6388.7478729550585,
+        "ensemble": 8331.65245058701,
+        "nested_selector": 8717.101041249947
+      }
+    },
+    {
+      "id": "KS_37",
+      "group": "0.40000000|0.22500000|0.22500000",
+      "family": "ALG+TOCNF+SCLG",
+      "ion": "Ca",
+      "observed": 23800.0,
+      "legacy_overlap": false,
+      "predictions": {
+        "v4_gp": 6306.371686232869,
+        "ks_main": 5403.440199210439,
+        "joint_ridge": 14596.333110245674,
+        "mixture_gp": 7372.360133596221,
+        "trend_gp": 7953.2981628942725,
+        "ensemble": 7423.108968825669,
+        "nested_selector": 5403.440199210439
+      }
+    }
+  ]
+}
